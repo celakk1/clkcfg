@@ -1200,9 +1200,9 @@
       "Lobby check": true
     },
     {
-      "name": "Language$Espa�ol",
-      "prettyName": "Espa�ol",
-      "prettyInfo": "Espa�ol",
+      "name": "Language$Espanol",
+      "prettyName": "Espanol",
+      "prettyInfo": "Espanol",
       "enabled": false,
       "hidden": false,
       "keybind": 0
@@ -2170,7 +2170,7 @@
       "Switch delay": 600.0,
       "Target invisible": true,
       "Target player": true,
-      "Target entity": true,
+      "Target entity": false,
       "Disable in inventory": true,
       "Disable while blocking": false,
       "Disable while mining": false,
