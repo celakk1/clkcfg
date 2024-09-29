@@ -1200,9 +1200,9 @@
       "Lobby check": true
     },
     {
-      "name": "Language$Espa�ol",
-      "prettyName": "Espa�ol",
-      "prettyInfo": "Espa�ol",
+      "name": "Language$Espanol",
+      "prettyName": "Espanol",
+      "prettyInfo": "Espanol",
       "enabled": false,
       "hidden": false,
       "keybind": 0
