@@ -3408,7 +3408,7 @@
       "Rotation": 3.0,
       "Aim speed": 20.0,
       "MoveFix": false,
-      "Motion": 0.9,
+      "Motion": 0.75,
       "Strafe": 0.0,
       "Sprint": 3.0,
       "Fast": true,
