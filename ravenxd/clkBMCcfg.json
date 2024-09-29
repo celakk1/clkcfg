@@ -1,6 +1,6 @@
 {
   "clientName": "blocksmc",
-  "killmessage": "skibidi",
+  "killmessage": "This is a custom killMessage",
   "keybind": 0,
   "modules": [
     {
@@ -1520,81 +1520,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "minigames",
-          "x": 946,
-          "y": 59,
+          "name": "other",
+          "x": 326,
+          "y": 72,
           "opened": true
         },
         {
           "name": "player",
           "x": 627,
-          "y": 60,
+          "y": 72,
           "opened": true
         },
         {
-          "name": "exploit",
-          "x": 227,
-          "y": 60,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 60,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 60,
-          "opened": true
-        },
-        {
-          "name": "world",
-          "x": 426,
-          "y": 60,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 271,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
-          "y": 60,
+          "name": "minigames",
+          "x": 946,
+          "y": 71,
           "opened": true
         },
         {
           "name": "experimental",
           "x": 1049,
-          "y": 60,
+          "y": 72,
           "opened": true
         },
         {
           "name": "client",
           "x": 125,
-          "y": 60,
+          "y": 72,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 72,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 72,
           "opened": true
         },
         {
           "name": "fun",
           "x": 1153,
-          "y": 57,
+          "y": 69,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 72,
           "opened": true
         },
         {
           "name": "profiles",
           "x": 23,
-          "y": 60,
+          "y": 72,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 72,
           "opened": true
         },
         {
           "name": "render",
           "x": 527,
-          "y": 60,
+          "y": 72,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 283,
           "opened": true
         }
       ],
@@ -2015,7 +2015,7 @@
       "name": "ItemESP",
       "prettyName": "ItemESP",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Render iron": true,
@@ -2031,7 +2031,7 @@
       "Red": 255.0,
       "Green": 173.0,
       "Blue": 209.0,
-      "Alpha": 255.0
+      "Alpha": 121.0
     },
     {
       "name": "Jesus",
@@ -3171,7 +3171,7 @@
       "name": "TargetHUD$Raven",
       "prettyName": "Raven",
       "prettyInfo": "Raven",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
       "Theme": 1.0,
@@ -3192,7 +3192,7 @@
       "name": "TargetHUD$RavenNew",
       "prettyName": "RavenNew",
       "prettyInfo": "RavenNew",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Theme": 1.0,
@@ -3408,7 +3408,7 @@
       "Rotation": 3.0,
       "Aim speed": 20.0,
       "MoveFix": false,
-      "Motion": 0.75,
+      "Motion": 0.9,
       "Strafe": 0.0,
       "Sprint": 3.0,
       "Fast": true,
@@ -3673,7 +3673,7 @@
       "keybind": 0,
       "posX": 107,
       "posY": 44,
-      "Mode": 4.0,
+      "Mode": 0.0,
       "Only killAura": true
     },
     {
