@@ -1520,81 +1520,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "other",
-          "x": 326,
-          "y": 24,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 24,
-          "opened": true
-        },
-        {
-          "name": "world",
-          "x": 426,
-          "y": 24,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 235,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
-          "y": 24,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
-          "y": 24,
+          "name": "combat",
+          "x": 832,
+          "y": 54,
           "opened": true
         },
         {
           "name": "minigames",
           "x": 946,
-          "y": 23,
-          "opened": true
-        },
-        {
-          "name": "fun",
-          "x": 1153,
-          "y": 21,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 24,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 24,
+          "y": 53,
           "opened": true
         },
         {
           "name": "profiles",
           "x": 23,
-          "y": 24,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "fun",
+          "x": 1153,
+          "y": 51,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 54,
           "opened": true
         },
         {
           "name": "experimental",
           "x": 1049,
-          "y": 24,
+          "y": 54,
           "opened": true
         },
         {
-          "name": "combat",
-          "x": 832,
-          "y": 24,
+          "name": "render",
+          "x": 527,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 265,
           "opened": true
         }
       ],
@@ -1662,7 +1662,7 @@
       "name": "HitSelect",
       "prettyName": "HitSelect",
       "prettyInfo": "Pause",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Mode": 1.0,
@@ -2143,13 +2143,13 @@
       "Click mode": 0.0,
       "Autoblock": 4.0,
       "Attack mode": 1.0,
-      "Attack range": 3.5,
-      "Swing range": 3.5,
-      "Block range": 3.6,
-      "PreAim range": 4.5,
+      "Attack range": 3.3,
+      "Swing range": 3.3,
+      "Block range": 3.4,
+      "PreAim range": 4.6,
       "FOV": 360.0,
       "Rotation": 1.0,
-      "Rotation speed": 7.4,
+      "Rotation speed": 7.15,
       "Move fix": 1.0,
       "Ray cast": 1.0,
       "Nearest": false,
@@ -2159,11 +2159,11 @@
       "Constant": false,
       "Constant only if not moving": false,
       "Noise": true,
-      "Noise horizontal": 0.35,
-      "Noise vertical": 0.49,
+      "Noise horizontal": 0.25,
+      "Noise vertical": 0.3,
       "Noise aim speed": 0.35,
-      "Noise delay": 100.0,
-      "Delay aim": true,
+      "Noise delay": 120.0,
+      "Delay aim": false,
       "Delay aim amount": 6.0,
       "Sort mode": 2.0,
       "Targets": 1.0,
@@ -2177,7 +2177,7 @@
       "Fix slot reset": false,
       "Fix NoSlow flag": false,
       "Post delay": 10.0,
-      "Hit through blocks": true,
+      "Hit through blocks": false,
       "Ignore teammates": true,
       "Manual block": false,
       "Require mouse down": false,
@@ -2237,10 +2237,10 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Lag time": 130.0,
-      "Min range": 3.2,
-      "Max range": 3.5,
-      "Delay": 500.0,
+      "Lag time": 100.0,
+      "Min range": 3.1,
+      "Max range": 3.3,
+      "Delay": 300.0,
       "Fov": 360.0,
       "Ignore teammates": true,
       "Only onGround": false
@@ -2770,8 +2770,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 8.0,
-      "Max CPS": 11.2,
+      "Min CPS": 10.3,
+      "Max CPS": 14.0,
       "Butterfly": false
     },
     {
@@ -2856,8 +2856,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.8,
-      "Max CPS": 13.5,
+      "Min CPS": 9.8,
+      "Max CPS": 15.4,
       "Butterfly": false
     },
     {
@@ -3408,12 +3408,12 @@
       "Rotation": 1.0,
       "Aim speed": 20.0,
       "MoveFix": false,
-      "Motion": 0.8,
+      "Motion": 0.75,
       "Strafe": 0.0,
       "Sprint": 3.0,
       "Fast": true,
       "Precision": 4.0,
-      "Cancel sprint": false,
+      "Cancel sprint": true,
       "Legit": false,
       "Hover": false,
       "Recycle rotation": false,
