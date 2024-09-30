@@ -99,10 +99,10 @@
       "Swing while digging": true,
       "Client side (visual 1.7)": true,
       "Fake slot reset": false,
-      "X": 0.45,
-      "Y": -0.1,
-      "Z": -0.35,
-      "Swing speed": 0.0
+      "X": 0.55,
+      "Y": -0.05,
+      "Z": -0.45,
+      "Swing speed": -25.0
     },
     {
       "name": "AntiAFK",
@@ -657,7 +657,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 0.5
+      "Speed": 0.65
     },
     {
       "name": "Disabler$BlocksMC",
@@ -776,12 +776,12 @@
       "hidden": false,
       "keybind": 0,
       "Red": 255.0,
-      "Green": 3.0,
-      "Blue": 85.0,
+      "Green": 179.0,
+      "Blue": 170.0,
       "Rainbow": false,
-      "Outline": true,
-      "Shade": false,
-      "Disable if opened": false
+      "Outline": false,
+      "Shade": true,
+      "Disable if opened": true
     },
     {
       "name": "ChestStealer",
@@ -1200,9 +1200,9 @@
       "Lobby check": true
     },
     {
-      "name": "Language$Espanol",
-      "prettyName": "Espanol",
-      "prettyInfo": "Espanol",
+      "name": "Language$Espa�ol",
+      "prettyName": "Espa�ol",
+      "prettyInfo": "Espa�ol",
       "enabled": false,
       "hidden": false,
       "keybind": 0
@@ -1329,8 +1329,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Break delay ticks": 3.0,
-      "Break speed multiplier": 1.2,
+      "Break delay ticks": 4.0,
+      "Break speed multiplier": 1.1,
       "Mode": 2.0,
       "Disable in creative": true
     },
@@ -1520,81 +1520,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "other",
-          "x": 326,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 72,
+          "name": "world",
+          "x": 426,
+          "y": 48,
           "opened": true
         },
         {
           "name": "minigames",
           "x": 946,
-          "y": 71,
-          "opened": true
-        },
-        {
-          "name": "experimental",
-          "x": 1049,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "fun",
-          "x": 1153,
-          "y": 69,
-          "opened": true
-        },
-        {
-          "name": "world",
-          "x": 426,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
-          "y": 72,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 72,
+          "y": 47,
           "opened": true
         },
         {
           "name": "render",
           "x": 527,
-          "y": 72,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "profiles",
+          "x": 23,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 48,
           "opened": true
         },
         {
           "name": "scripts",
           "x": 24,
-          "y": 283,
+          "y": 259,
+          "opened": true
+        },
+        {
+          "name": "experimental",
+          "x": 1049,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "fun",
+          "x": 1153,
+          "y": 45,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 48,
           "opened": true
         }
       ],
@@ -1701,7 +1701,7 @@
       "hidden": false,
       "keybind": 0,
       "Hypixel mode": 0.0,
-      "Fast": true,
+      "Fast": false,
       "Mode": 0.0,
       "Stop on hurt": true
     },
@@ -1812,7 +1812,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Minimum fall distance": 5.0
+      "Minimum fall distance": 3.5
     },
     {
       "name": "LongJump$HypixelBow",
@@ -2031,7 +2031,7 @@
       "Red": 255.0,
       "Green": 173.0,
       "Blue": 209.0,
-      "Alpha": 121.0
+      "Alpha": 100.0
     },
     {
       "name": "Jesus",
@@ -2427,7 +2427,7 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 0.0,
-      "Fast": true,
+      "Fast": false,
       "Stop on hurt": true
     },
     {
@@ -2654,7 +2654,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 2.0,
+      "Mode": 0.0,
       "Ignore void": true
     },
     {
@@ -2700,9 +2700,9 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 7.0,
-      "Sword": true,
-      "Bow": false,
-      "Rest": false
+      "Sword": false,
+      "Bow": true,
+      "Rest": true
     },
     {
       "name": "NoWeb",
@@ -2856,8 +2856,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.8,
-      "Max CPS": 14.0,
+      "Min CPS": 14.5,
+      "Max CPS": 20.0,
       "Butterfly": false
     },
     {
@@ -3102,7 +3102,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Fast": true
+      "Fast": false
     },
     {
       "name": "ProjectileAimBot",
@@ -3412,7 +3412,7 @@
       "Strafe": 0.0,
       "Sprint": 3.0,
       "Fast": true,
-      "Precision": 4.0,
+      "Precision": 3.0,
       "Cancel sprint": false,
       "Legit": false,
       "Hover": false,
@@ -3443,7 +3443,7 @@
       "SameY": false,
       "Auto jump": false,
       "Expand": false,
-      "Expand distance": 0.0,
+      "Expand distance": 10.0,
       "Polar": false,
       "Post place": false
     },
@@ -3501,7 +3501,7 @@
       "prettyName": "SlotHandler",
       "prettyInfo": "",
       "Mode": 0.0,
-      "Switch back delay": 60.0
+      "Switch back delay": 100.0
     },
     {
       "name": "SlyPort",
@@ -3635,8 +3635,8 @@
       "hidden": false,
       "keybind": 0,
       "Slowdown": true,
-      "SlowdownForward": 1.0,
-      "SlowdownStrafe": 1.0,
+      "SlowdownForward": 0.2,
+      "SlowdownStrafe": 0.2,
       "Switch": false,
       "Slot": true,
       "OnGround": false,
@@ -3683,7 +3683,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Range": 2.8,
+      "Range": 2.6,
       "Allow speed": true,
       "Allow fly": false,
       "Allow manual": true,
@@ -3840,7 +3840,7 @@
       "Disable while collided": false,
       "Disable while hurt": false,
       "Sprint jump forward": false,
-      "Stop motion": true
+      "Stop motion": false
     },
     {
       "name": "Tracers",
@@ -3909,9 +3909,9 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Horizon speed": 1.4,
+      "Horizon speed": 0.9,
       "Auto jump": false,
-      "Vertical speed": 1.0,
+      "Vertical speed": 0.9,
       "Fast stop": true
     },
     {
@@ -4041,7 +4041,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Low hop": 4.0
+      "Low hop": 1.0
     },
     {
       "name": "WallClimb$Vulcan",
