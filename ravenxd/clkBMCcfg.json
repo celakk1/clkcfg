@@ -380,11 +380,11 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Hover delay": 0.0,
+      "Hover delay": 1.0,
       "Disable while right click": false,
-      "Require mouse down": false,
+      "Require mouse down": true,
       "Swap to previous slot": true,
-      "Sneak require": true
+      "Sneak require": false
     },
     {
       "name": "AutoWeapon",
@@ -393,7 +393,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Hover delay": 6.0,
+      "Hover delay": 0.0,
       "Swap to previous slot": false,
       "Only when holding lmb": false,
       "Ignore teammates": false
@@ -657,7 +657,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 0.65
+      "Speed": 1.0
     },
     {
       "name": "Disabler$BlocksMC",
@@ -813,12 +813,12 @@
       "hidden": false,
       "keybind": 0,
       "Disable in creative": false,
-      "Left click": true,
-      "Chance left": 100.0,
+      "Left click": false,
+      "Chance left": 0.0,
       "Weapon only": false,
       "Only while targeting": false,
       "Right click": false,
-      "Chance right": 80.0,
+      "Chance right": 0.0,
       "Blocks only": true,
       "Above 5 cps": false
     },
@@ -924,7 +924,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 4.0
+      "Mode": 2.0
     },
     {
       "name": "Fly$Custom",
@@ -1103,7 +1103,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 3.0
+      "Mode": 5.0
     },
     {
       "name": "DiscordRPC",
@@ -1338,7 +1338,7 @@
       "name": "FastPlace",
       "prettyName": "FastPlace",
       "prettyInfo": "",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
       "Tick delay": 0.0,
@@ -1520,62 +1520,8 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "experimental",
-          "x": 1049,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 48,
-          "opened": true
-        },
-        {
           "name": "world",
           "x": 426,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 47,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "fun",
-          "x": 1153,
-          "y": 45,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 259,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
           "y": 48,
           "opened": true
         },
@@ -1586,15 +1532,69 @@
           "opened": true
         },
         {
+          "name": "fun",
+          "x": 1153,
+          "y": 45,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 48,
+          "opened": true
+        },
+        {
           "name": "client",
           "x": 125,
           "y": 48,
           "opened": true
         },
         {
+          "name": "experimental",
+          "x": 1049,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 259,
+          "opened": true
+        },
+        {
           "name": "combat",
           "x": 832,
           "y": 48,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 47,
           "opened": true
         }
       ],
@@ -1666,7 +1666,7 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 1.0,
-      "Preference": 0.0,
+      "Preference": 2.0,
       "Delay": 300.0,
       "Chance": 100.0
     },
@@ -1812,7 +1812,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Minimum fall distance": 3.5
+      "Minimum fall distance": 6.0
     },
     {
       "name": "LongJump$HypixelBow",
@@ -1847,8 +1847,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Minimum fall distance": 8.0,
-      "Auto jump": true,
+      "Minimum fall distance": 6.0,
+      "Auto jump": false,
       "Not while breaking": false
     },
     {
@@ -1858,11 +1858,11 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Calcate mode": 0.0,
-      "Prediction": true,
-      "Minimum fall distance": 5.0,
+      "Calcate mode": 1.0,
+      "Prediction": false,
+      "Minimum fall distance": 5.5,
       "Low timer": false,
-      "Not while killAura": false
+      "Not while killAura": true
     },
     {
       "name": "RemoteShop$HypixelTest",
@@ -2128,7 +2128,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Slow %": 25.0,
+      "Slow %": 0.0,
       "Chance": 100.0,
       "Disable while jumping": false,
       "Only reduce reach hits": false
@@ -2143,28 +2143,28 @@
       "Click mode": 0.0,
       "Autoblock": 5.0,
       "Attack mode": 1.0,
-      "Attack range": 3.3,
-      "Swing range": 3.3,
-      "Block range": 3.4,
-      "PreAim range": 4.4,
+      "Attack range": 3.4,
+      "Swing range": 3.4,
+      "Block range": 3.5,
+      "PreAim range": 6.0,
       "FOV": 360.0,
       "Rotation": 1.0,
       "Rotation speed": 10.0,
       "Move fix": 0.0,
       "Ray cast": 1.0,
       "Nearest": false,
-      "Nearest accuracy": 1.0,
+      "Nearest accuracy": 0.86,
       "Lazy": false,
-      "Lazy accuracy": 0.6,
+      "Lazy accuracy": 0.76,
       "Constant": false,
       "Constant only if not moving": false,
       "Noise": false,
       "Noise horizontal": 0.35,
       "Noise vertical": 0.49,
-      "Noise aim speed": 0.35,
+      "Noise aim speed": 0.15,
       "Noise delay": 100.0,
       "Delay aim": false,
-      "Delay aim amount": 5.0,
+      "Delay aim amount": 15.0,
       "Sort mode": 2.0,
       "Targets": 1.0,
       "Switch delay": 600.0,
@@ -2237,10 +2237,10 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Lag time": 130.0,
-      "Min range": 3.2,
+      "Lag time": 120.0,
+      "Min range": 3.0,
       "Max range": 3.4,
-      "Delay": 200.0,
+      "Delay": 500.0,
       "Fov": 360.0,
       "Ignore teammates": false,
       "Only onGround": false
@@ -2320,9 +2320,9 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Aim speed": 5.0,
+      "Aim speed": 6.8,
       "Min distance": 3.0,
-      "Silent aim": true,
+      "Silent aim": false,
       "Switch to item": true
     },
     {
@@ -2654,7 +2654,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 6.0,
+      "Mode": 4.0,
       "Ignore void": true
     },
     {
@@ -2770,8 +2770,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 8.0,
-      "Max CPS": 14.0,
+      "Min CPS": 8.9,
+      "Max CPS": 13.1,
       "Butterfly": false
     },
     {
@@ -2856,8 +2856,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 14.5,
-      "Max CPS": 20.0,
+      "Min CPS": 12.0,
+      "Max CPS": 16.0,
       "Butterfly": false
     },
     {
@@ -3016,11 +3016,11 @@
       "name": "Particles",
       "prettyName": "Particles",
       "prettyInfo": "",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
       "Multiplier": 1.0,
-      "Always sharpness": true,
+      "Always sharpness": false,
       "Always criticals": true
     },
     {
@@ -3355,7 +3355,7 @@
       "Aim speed": 15.0,
       "Rotate body": true,
       "Full body": false,
-      "Random yaw factor": 1.0
+      "Random yaw factor": 2.0
     },
     {
       "name": "MoreKB$STap",
@@ -3394,7 +3394,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Delay": 0.0
+      "Delay": 10.0
     },
     {
       "name": "Scaffold",
@@ -3408,7 +3408,7 @@
       "Rotation": 3.0,
       "Aim speed": 20.0,
       "MoveFix": false,
-      "Motion": 0.75,
+      "Motion": 0.8,
       "Strafe": 0.0,
       "Sprint": 3.0,
       "Fast": true,
@@ -3418,7 +3418,7 @@
       "Hover": false,
       "Recycle rotation": false,
       "Sneak": false,
-      "Sneak every blocks": 10.0,
+      "Sneak every blocks": 6.0,
       "Sneak time": 100.0,
       "Jump": false,
       "Jump every blocks": 8.0,
@@ -3438,7 +3438,7 @@
       "Safewalk": true,
       "Show block count": true,
       "Silent swing": true,
-      "No swing": false,
+      "No swing": true,
       "Tower": true,
       "SameY": false,
       "Auto jump": false,
@@ -3465,8 +3465,8 @@
       "Set rod as weapon": false,
       "Set stick as weapon": false,
       "Send message on enable": true,
-      "Offset": 3.0,
-      "Time multiplier": 0.5,
+      "Offset": 0.0,
+      "Time multiplier": 1.0,
       "Toggle sound": 1.0
     },
     {
@@ -3501,7 +3501,7 @@
       "prettyName": "SlotHandler",
       "prettyInfo": "",
       "Mode": 0.0,
-      "Switch back delay": 100.0
+      "Switch back delay": 10.0
     },
     {
       "name": "SlyPort",
@@ -3796,8 +3796,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Timer": 0.5,
-      "Max timer time": 2000.0,
+      "Timer": 0.9,
+      "Max timer time": 100.0,
       "Chance": 90.0,
       "Stop on hurt": true
     },
@@ -3839,7 +3839,7 @@
       "Mode": 3.0,
       "Disable while collided": false,
       "Disable while hurt": false,
-      "Sprint jump forward": false,
+      "Sprint jump forward": true,
       "Stop motion": false
     },
     {
@@ -3909,7 +3909,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Horizon speed": 0.9,
+      "Horizon speed": 5.0,
       "Auto jump": false,
       "Vertical speed": 0.9,
       "Fast stop": true
@@ -4083,7 +4083,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Minimum fall distance": 6.0
+      "Minimum fall distance": 7.0
     },
     {
       "name": "Tower$Vulcan",
