@@ -839,7 +839,7 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 2.0,
-      "Cancel Forge packet": false
+      "Cancel Forge packet": true
     },
     {
       "name": "ClientTheme",
@@ -1448,7 +1448,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Motion": 3.9,
+      "Motion": 5.9,
       "Blink": false,
       "Only murder mystery": false
     },
@@ -1501,7 +1501,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Fast": true
+      "Fast": false
     },
     {
       "name": "Speed$Hypixel$GroundStrafe",
@@ -1520,20 +1520,26 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "world",
-          "x": 426,
+          "name": "experimental",
+          "x": 1049,
           "y": 48,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 47,
           "opened": true
         },
         {
           "name": "render",
           "x": 527,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
           "y": 48,
           "opened": true
         },
@@ -1544,38 +1550,14 @@
           "opened": true
         },
         {
-          "name": "profiles",
-          "x": 23,
-          "y": 48,
+          "name": "minigames",
+          "x": 946,
+          "y": 47,
           "opened": true
         },
         {
           "name": "player",
           "x": 627,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 259,
-          "opened": true
-        },
-        {
-          "name": "experimental",
-          "x": 1049,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 48,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
           "y": 48,
           "opened": true
         },
@@ -1586,14 +1568,32 @@
           "opened": true
         },
         {
+          "name": "scripts",
+          "x": 24,
+          "y": 259,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 48,
+          "opened": true
+        },
+        {
+          "name": "profiles",
+          "x": 23,
+          "y": 48,
+          "opened": true
+        },
+        {
           "name": "client",
           "x": 125,
           "y": 48,
           "opened": true
         },
         {
-          "name": "exploit",
-          "x": 227,
+          "name": "combat",
+          "x": 832,
           "y": 48,
           "opened": true
         }
@@ -2237,10 +2237,10 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Lag time": 100.0,
+      "Lag time": 130.0,
       "Min range": 3.2,
-      "Max range": 3.5,
-      "Delay": 300.0,
+      "Max range": 3.4,
+      "Delay": 200.0,
       "Fov": 360.0,
       "Ignore teammates": false,
       "Only onGround": false
@@ -2654,7 +2654,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 0.0,
+      "Mode": 6.0,
       "Ignore void": true
     },
     {
@@ -3030,8 +3030,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 0.0,
-      "Cancel S08": false,
+      "Mode": 3.0,
+      "Cancel S08": true,
       "Cancel push": true
     },
     {
@@ -3542,10 +3542,10 @@
       "enabled": false,
       "hidden": false,
       "keybind": 44,
-      "Mode": 1.0,
+      "Mode": 3.0,
       "Disable in liquid": true,
       "Disable while sneaking": true,
-      "Stop motion": false
+      "Stop motion": true
     },
     {
       "name": "AntiAim$Spin",
@@ -4032,7 +4032,7 @@
       "hidden": false,
       "keybind": 0,
       "Fast": false,
-      "Cancel velocity": true
+      "Cancel velocity": false
     },
     {
       "name": "Speed$Vulcan",
@@ -4083,7 +4083,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Minimum fall distance": 4.5
+      "Minimum fall distance": 6.0
     },
     {
       "name": "Tower$Vulcan",
