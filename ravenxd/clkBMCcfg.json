@@ -149,7 +149,7 @@
       "Cancel bot hit": true,
       "Whitelist golems": true,
       "Whitelist silverfishes": true,
-      "Whitelist chickens": false
+      "Whitelist chickens": true
     },
     {
       "name": "AntiFalseFlag",
@@ -657,7 +657,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 1.0
+      "Speed": 0.98
     },
     {
       "name": "Disabler$BlocksMC",
@@ -704,7 +704,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Mode": 1.0,
+      "Mode": 0.0,
       "Show manual": true,
       "Show BedAura": true
     },
@@ -792,8 +792,8 @@
       "keybind": 48,
       "Min start delay": 60.0,
       "Max start delay": 80.0,
-      "Min steal delay": 80.0,
-      "Max steal delay": 100.0,
+      "Min steal delay": 70.0,
+      "Max steal delay": 180.0,
       "Shuffle": true,
       "Auto close": true,
       "Auto close if inv full": false,
@@ -1338,7 +1338,7 @@
       "name": "FastPlace",
       "prettyName": "FastPlace",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Tick delay": 0.0,
@@ -1522,79 +1522,79 @@
         {
           "name": "movement",
           "x": 728,
-          "y": 0,
+          "y": 120,
           "opened": true
         },
         {
           "name": "other",
           "x": 326,
-          "y": 0,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 0,
-          "opened": true
-        },
-        {
-          "name": "world",
-          "x": 426,
-          "y": 0,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": -1,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 211,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 0,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
-          "y": 0,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 0,
-          "opened": true
-        },
-        {
-          "name": "fun",
-          "x": 1153,
-          "y": -3,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 0,
+          "y": 120,
           "opened": true
         },
         {
           "name": "experimental",
           "x": 1049,
-          "y": 0,
+          "y": 120,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 120,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 119,
+          "opened": true
+        },
+        {
+          "name": "fun",
+          "x": 1153,
+          "y": 117,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 120,
           "opened": true
         },
         {
           "name": "profiles",
           "x": 23,
-          "y": 0,
+          "y": 120,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 331,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
+          "y": 120,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 120,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 120,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 120,
           "opened": true
         }
       ],
@@ -1677,7 +1677,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Horizontal": 17.0,
+      "Horizontal": 19.0,
       "Vertical": 100.0,
       "Chance": 100.0,
       "Cancel air": false,
@@ -1701,7 +1701,7 @@
       "hidden": false,
       "keybind": 0,
       "Hypixel mode": 0.0,
-      "Fast": false,
+      "Fast": true,
       "Mode": 0.0,
       "Stop on hurt": true
     },
@@ -1977,16 +1977,16 @@
       "Mode": 1.0,
       "Not while moving": true,
       "Min start delay": 60.0,
-      "Max start delay": 200.0,
+      "Max start delay": 120.0,
       "Armor": true,
-      "Min armor delay": 40.0,
-      "Max armor delay": 80.0,
+      "Min armor delay": 30.0,
+      "Max armor delay": 60.0,
       "Clean": true,
       "Min clean delay": 0.0,
-      "Max clean delay": 100.0,
+      "Max clean delay": 40.0,
       "Sort": true,
-      "Min sort delay": 50.0,
-      "Max sort delay": 80.0,
+      "Min sort delay": 30.0,
+      "Max sort delay": 60.0,
       "Sword slot": 1.0,
       "Block slot": 2.0,
       "Ender pearl slot": 3.0,
@@ -2091,7 +2091,7 @@
       "hidden": false,
       "keybind": 0,
       "Speed": 1.0,
-      "Hypixel off ground speed": 0.5,
+      "Hypixel off ground speed": 0.65,
       "Hypixel no strafe": false,
       "Low hop": 0.0
     },
@@ -2142,17 +2142,17 @@
       "hidden": false,
       "keybind": 16,
       "Click mode": 0.0,
-      "Autoblock": 5.0,
+      "Autoblock": 4.0,
       "Attack mode": 1.0,
-      "Attack range": 3.3,
-      "Swing range": 4.5,
-      "Block range": 3.3,
-      "PreAim range": 5.0,
+      "Attack range": 3.4,
+      "Swing range": 5.0,
+      "Block range": 3.5,
+      "PreAim range": 5.5,
       "FOV": 360.0,
       "Rotation": 1.0,
       "Rotation speed": 10.0,
       "Move fix": 0.0,
-      "Ray cast": 1.0,
+      "Ray cast": 2.0,
       "Nearest": false,
       "Nearest accuracy": 0.86,
       "Lazy": false,
@@ -2166,7 +2166,7 @@
       "Noise delay": 100.0,
       "Delay aim": false,
       "Delay aim amount": 15.0,
-      "Sort mode": 2.0,
+      "Sort mode": 0.0,
       "Targets": 1.0,
       "Switch delay": 600.0,
       "Target invisible": true,
@@ -2238,8 +2238,8 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Lag time": 130.0,
-      "Min range": 3.1,
+      "Lag time": 110.0,
+      "Min range": 3.0,
       "Max range": 3.3,
       "Delay": 500.0,
       "Fov": 360.0,
@@ -2428,7 +2428,7 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 0.0,
-      "Fast": false,
+      "Fast": true,
       "Stop on hurt": true
     },
     {
@@ -2749,8 +2749,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 14.0,
-      "Max CPS": 16.3,
+      "Min CPS": 10.8,
+      "Max CPS": 14.0,
       "Butterfly": true
     },
     {
@@ -2771,9 +2771,9 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 11.7,
-      "Max CPS": 13.5,
-      "Butterfly": true
+      "Min CPS": 10.3,
+      "Max CPS": 14.0,
+      "Butterfly": false
     },
     {
       "name": "RageBot$Normal",
@@ -2870,9 +2870,9 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 12.1,
-      "Max CPS": 18.2,
-      "Butterfly": false
+      "Min CPS": 13.1,
+      "Max CPS": 16.3,
+      "Butterfly": true
     },
     {
       "name": "BedDefender$Normal",
@@ -3116,7 +3116,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Fast": false
+      "Fast": true
     },
     {
       "name": "ProjectileAimBot",
@@ -3381,7 +3381,7 @@
       "Aim speed": 15.0,
       "Rotate body": true,
       "Full body": false,
-      "Random yaw factor": 2.0
+      "Random yaw factor": 0.0
     },
     {
       "name": "MoreKB$STap",
@@ -3443,9 +3443,9 @@
       "Aim speed": 20.0,
       "MoveFix": false,
       "Motion": 0.75,
-      "Strafe": 0.0,
+      "Strafe": -15.0,
       "Sprint": 4.0,
-      "Fast": true,
+      "Fast": false,
       "Precision": 3.0,
       "Cancel sprint": false,
       "Legit": false,
@@ -3489,7 +3489,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Delay": 0.25
+      "Delay": 0.1
     },
     {
       "name": "Settings",
