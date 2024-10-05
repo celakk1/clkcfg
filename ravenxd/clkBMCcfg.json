@@ -2240,7 +2240,7 @@
       "keybind": 0,
       "Lag time": 130.0,
       "Min range": 3.1,
-      "Max range": 3.2,
+      "Max range": 3.3,
       "Delay": 500.0,
       "Fov": 360.0,
       "Ignore teammates": false,
@@ -2772,7 +2772,7 @@
       "hidden": false,
       "keybind": 0,
       "Min CPS": 11.7,
-      "Max CPS": 14.0,
+      "Max CPS": 13.5,
       "Butterfly": true
     },
     {
