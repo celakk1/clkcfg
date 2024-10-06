@@ -146,7 +146,7 @@
       "MatrixTest": false,
       "Debug": false,
       "Pit spawn": false,
-      "Cancel bot hit": true,
+      "Cancel bot hit": false,
       "Whitelist golems": true,
       "Whitelist silverfishes": true,
       "Whitelist chickens": true
@@ -380,20 +380,20 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Hover delay": 1.0,
+      "Hover delay": 2.0,
       "Disable while right click": false,
-      "Require mouse down": true,
-      "Swap to previous slot": true,
+      "Require mouse down": false,
+      "Swap to previous slot": false,
       "Sneak require": false
     },
     {
       "name": "AutoWeapon",
       "prettyName": "AutoWeapon",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Hover delay": 0.0,
+      "Hover delay": 1.0,
       "Swap to previous slot": false,
       "Only when holding lmb": false,
       "Ignore teammates": false
@@ -534,12 +534,12 @@
       "prettyInfo": "Legit",
       "enabled": false,
       "hidden": false,
-      "keybind": 0,
+      "keybind": 35,
       "Break mode": 2.0,
-      "Break speed": 1.0,
+      "Break speed": 1.1,
       "FOV": 360.0,
       "Range": 4.5,
-      "Rate": 0.8,
+      "Rate": 0.35,
       "Lobby check": true,
       "Allow aura": true,
       "Break near block": true,
@@ -550,7 +550,7 @@
       "Only while visible": false,
       "Render block outline": true,
       "Send animations": true,
-      "Silent swing": true
+      "Silent swing": false
     },
     {
       "name": "BedDefender",
@@ -559,11 +559,11 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Click mode": 1.0,
+      "Click mode": 0.0,
       "Aim speed": 20.0,
       "Auto switch": true,
       "Ray cast": true,
-      "Silent swing": true
+      "Silent swing": false
     },
     {
       "name": "BedESP",
@@ -657,7 +657,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 0.98
+      "Speed": 1.0
     },
     {
       "name": "Disabler$BlocksMC",
@@ -790,20 +790,20 @@
       "enabled": false,
       "hidden": false,
       "keybind": 48,
-      "Min start delay": 60.0,
-      "Max start delay": 80.0,
+      "Min start delay": 250.0,
+      "Max start delay": 300.0,
       "Min steal delay": 70.0,
-      "Max steal delay": 180.0,
+      "Max steal delay": 70.0,
       "Shuffle": true,
       "Auto close": true,
-      "Auto close if inv full": false,
-      "Min close delay": 20.0,
-      "Max close delay": 80.0,
+      "Auto close if inv full": true,
+      "Min close delay": 60.0,
+      "Max close delay": 60.0,
       "Custom chest": false,
       "Ignore trash": false,
       "Silent": false,
       "Not Moving": false,
-      "Allow mouse control": false
+      "Allow mouse control": true
     },
     {
       "name": "ClickAssist",
@@ -835,7 +835,7 @@
       "name": "ClientSpoofer",
       "prettyName": "ClientSpoofer",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Mode": 2.0,
@@ -845,7 +845,7 @@
       "name": "ClientTheme",
       "prettyName": "ClientTheme",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Button": true,
@@ -1065,11 +1065,11 @@
       "name": "Delay Remover",
       "prettyName": "Delay Remover",
       "prettyInfo": "",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
       "1.7 hitReg": true,
-      "Remove jump ticks": false,
+      "Remove jump ticks": true,
       "Not while scaffold": true
     },
     {
@@ -1109,7 +1109,7 @@
       "name": "DiscordRPC",
       "prettyName": "DiscordRPC",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Mode": 0.0
@@ -1220,7 +1220,7 @@
       "name": "ExploitFixer",
       "prettyName": "ExploitFixer",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Debug": false,
@@ -1407,7 +1407,7 @@
       "name": "FullBright",
       "prettyName": "FullBright",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Mode": 1.0
@@ -1501,7 +1501,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Fast": false
+      "Fast": true
     },
     {
       "name": "Speed$Hypixel$GroundStrafe",
@@ -1520,81 +1520,81 @@
       "keybind": 54,
       "catPos": [
         {
+          "name": "world",
+          "x": 426,
+          "y": 12,
+          "opened": true
+        },
+        {
           "name": "movement",
           "x": 728,
-          "y": 120,
+          "y": 12,
           "opened": true
         },
         {
           "name": "other",
           "x": 326,
-          "y": 120,
-          "opened": true
-        },
-        {
-          "name": "experimental",
-          "x": 1049,
-          "y": 120,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
-          "y": 120,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 119,
+          "y": 12,
           "opened": true
         },
         {
           "name": "fun",
           "x": 1153,
-          "y": 117,
+          "y": 9,
           "opened": true
         },
         {
-          "name": "combat",
-          "x": 832,
-          "y": 120,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
-          "y": 120,
+          "name": "client",
+          "x": 125,
+          "y": 12,
           "opened": true
         },
         {
           "name": "scripts",
           "x": 24,
-          "y": 331,
+          "y": 223,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 12,
           "opened": true
         },
         {
           "name": "render",
           "x": 527,
-          "y": 120,
+          "y": 12,
           "opened": true
         },
         {
-          "name": "world",
-          "x": 426,
-          "y": 120,
+          "name": "minigames",
+          "x": 946,
+          "y": 11,
           "opened": true
         },
         {
-          "name": "player",
-          "x": 627,
-          "y": 120,
+          "name": "profiles",
+          "x": 23,
+          "y": 12,
           "opened": true
         },
         {
           "name": "exploit",
           "x": 227,
-          "y": 120,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "experimental",
+          "x": 1049,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 12,
           "opened": true
         }
       ],
@@ -1677,7 +1677,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Horizontal": 19.0,
+      "Horizontal": 0.0,
       "Vertical": 100.0,
       "Chance": 100.0,
       "Cancel air": false,
@@ -1971,22 +1971,22 @@
       "name": "InvManager",
       "prettyName": "InvManager",
       "prettyInfo": "OpenInv",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
-      "keybind": 0,
+      "keybind": 48,
       "Mode": 1.0,
       "Not while moving": true,
-      "Min start delay": 60.0,
-      "Max start delay": 120.0,
+      "Min start delay": 200.0,
+      "Max start delay": 200.0,
       "Armor": true,
-      "Min armor delay": 30.0,
-      "Max armor delay": 60.0,
+      "Min armor delay": 150.0,
+      "Max armor delay": 150.0,
       "Clean": true,
-      "Min clean delay": 0.0,
-      "Max clean delay": 40.0,
+      "Min clean delay": 70.0,
+      "Max clean delay": 70.0,
       "Sort": true,
-      "Min sort delay": 30.0,
-      "Max sort delay": 60.0,
+      "Min sort delay": 50.0,
+      "Max sort delay": 50.0,
       "Sword slot": 1.0,
       "Block slot": 2.0,
       "Ender pearl slot": 3.0,
@@ -2144,9 +2144,9 @@
       "Click mode": 0.0,
       "Autoblock": 4.0,
       "Attack mode": 1.0,
-      "Attack range": 3.4,
-      "Swing range": 5.0,
-      "Block range": 3.5,
+      "Attack range": 3.3,
+      "Swing range": 4.5,
+      "Block range": 3.3,
       "PreAim range": 5.5,
       "FOV": 360.0,
       "Rotation": 1.0,
@@ -2238,10 +2238,10 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Lag time": 110.0,
-      "Min range": 3.0,
-      "Max range": 3.3,
-      "Delay": 500.0,
+      "Lag time": 90.0,
+      "Min range": 3.1,
+      "Max range": 3.4,
+      "Delay": 300.0,
       "Fov": 360.0,
       "Ignore teammates": false,
       "Only onGround": false
@@ -2691,7 +2691,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 1.0
+      "Mode": 0.0
     },
     {
       "name": "NoSlow",
@@ -2749,8 +2749,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.8,
-      "Max CPS": 14.0,
+      "Min CPS": 10.0,
+      "Max CPS": 12.0,
       "Butterfly": true
     },
     {
@@ -2760,8 +2760,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 15.9,
-      "Max CPS": 15.9,
+      "Min CPS": 10.0,
+      "Max CPS": 14.0,
       "Butterfly": true
     },
     {
@@ -2771,8 +2771,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.3,
-      "Max CPS": 14.0,
+      "Min CPS": 9.0,
+      "Max CPS": 11.0,
       "Butterfly": false
     },
     {
@@ -3218,7 +3218,7 @@
       "name": "DiscordRPC$RavenXD",
       "prettyName": "RavenXD",
       "prettyInfo": "RavenXD",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0
     },
@@ -3229,8 +3229,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min": 3.3,
-      "Max": 3.5,
+      "Min": 3.15,
+      "Max": 3.35,
       "Chance": 100.0,
       "Weapon only": true,
       "Moving only": true,
@@ -3381,7 +3381,7 @@
       "Aim speed": 15.0,
       "Rotate body": true,
       "Full body": false,
-      "Random yaw factor": 0.0
+      "Random yaw factor": 1.0
     },
     {
       "name": "MoreKB$STap",
@@ -3437,14 +3437,14 @@
       "enabled": false,
       "hidden": false,
       "keybind": 47,
-      "Click mode": 1.0,
+      "Click mode": 0.0,
       "Always place if possible": false,
       "Rotation": 3.0,
       "Aim speed": 20.0,
       "MoveFix": false,
       "Motion": 0.75,
-      "Strafe": -15.0,
-      "Sprint": 4.0,
+      "Strafe": 0.0,
+      "Sprint": 3.0,
       "Fast": false,
       "Precision": 3.0,
       "Cancel sprint": false,
@@ -3472,7 +3472,7 @@
       "Safewalk": false,
       "Show block count": true,
       "Stop at start": false,
-      "Silent swing": true,
+      "Silent swing": false,
       "No swing": false,
       "Tower": true,
       "SameY": false,
@@ -3535,8 +3535,8 @@
       "name": "SlotHandler",
       "prettyName": "SlotHandler",
       "prettyInfo": "",
-      "Mode": 0.0,
-      "Switch back delay": 10.0
+      "Mode": 1.0,
+      "Switch back delay": 100.0
     },
     {
       "name": "SlyPort",
