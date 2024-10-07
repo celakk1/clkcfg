@@ -332,9 +332,9 @@
       "hidden": false,
       "keybind": 0,
       "Message": 1.0,
-      "Length": 11.0,
-      "Min delay": 1500.0,
-      "Max delay": 3000.0
+      "Length": 4.0,
+      "Min delay": 0.0,
+      "Max delay": 0.0
     },
     {
       "name": "AutoRespawn",
@@ -536,10 +536,10 @@
       "hidden": false,
       "keybind": 35,
       "Break mode": 2.0,
-      "Break speed": 1.1,
+      "Break speed": 1.0,
       "FOV": 360.0,
-      "Range": 4.5,
-      "Rate": 0.35,
+      "Range": 4.0,
+      "Rate": 0.55,
       "Lobby check": true,
       "Allow aura": true,
       "Break near block": true,
@@ -737,8 +737,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Clicks": 15.0,
-      "Delay (ms)": 40.0,
+      "Clicks": 0.0,
+      "Delay (ms)": 1.0,
       "Delay randomizer": false,
       "Place when block": false
     },
@@ -790,15 +790,15 @@
       "enabled": false,
       "hidden": false,
       "keybind": 48,
-      "Min start delay": 250.0,
+      "Min start delay": 300.0,
       "Max start delay": 300.0,
-      "Min steal delay": 70.0,
-      "Max steal delay": 70.0,
+      "Min steal delay": 80.0,
+      "Max steal delay": 100.0,
       "Shuffle": true,
       "Auto close": true,
       "Auto close if inv full": true,
-      "Min close delay": 60.0,
-      "Max close delay": 60.0,
+      "Min close delay": 50.0,
+      "Max close delay": 50.0,
       "Custom chest": false,
       "Ignore trash": false,
       "Silent": false,
@@ -835,7 +835,7 @@
       "name": "ClientSpoofer",
       "prettyName": "ClientSpoofer",
       "prettyInfo": "",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
       "Mode": 2.0,
@@ -1070,7 +1070,7 @@
       "keybind": 0,
       "1.7 hitReg": true,
       "Remove jump ticks": true,
-      "Not while scaffold": true
+      "Not while scaffold": false
     },
     {
       "name": "Language$Deutsch",
@@ -1133,10 +1133,10 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min Length": 17.0,
-      "Max Length": 18.0,
-      "Min delay between": 6.0,
-      "Max delay between": 6.0
+      "Min Length": 50.0,
+      "Max Length": 50.0,
+      "Min delay between": 1.0,
+      "Max delay between": 1.0
     },
     {
       "name": "KillAura$Drag Click",
@@ -1501,7 +1501,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Fast": true
+      "Fast": false
     },
     {
       "name": "Speed$Hypixel$GroundStrafe",
@@ -1520,8 +1520,8 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "world",
-          "x": 426,
+          "name": "client",
+          "x": 125,
           "y": 12,
           "opened": true
         },
@@ -1532,20 +1532,38 @@
           "opened": true
         },
         {
+          "name": "combat",
+          "x": 832,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "experimental",
+          "x": 1049,
+          "y": 12,
+          "opened": true
+        },
+        {
           "name": "other",
           "x": 326,
           "y": 12,
           "opened": true
         },
         {
-          "name": "fun",
-          "x": 1153,
-          "y": 9,
+          "name": "player",
+          "x": 627,
+          "y": 12,
           "opened": true
         },
         {
-          "name": "client",
-          "x": 125,
+          "name": "exploit",
+          "x": 227,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
           "y": 12,
           "opened": true
         },
@@ -1556,14 +1574,8 @@
           "opened": true
         },
         {
-          "name": "combat",
-          "x": 832,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
+          "name": "world",
+          "x": 426,
           "y": 12,
           "opened": true
         },
@@ -1580,21 +1592,9 @@
           "opened": true
         },
         {
-          "name": "exploit",
-          "x": 227,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "experimental",
-          "x": 1049,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 12,
+          "name": "fun",
+          "x": 1153,
+          "y": 9,
           "opened": true
         }
       ],
@@ -1666,7 +1666,7 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 1.0,
-      "Preference": 2.0,
+      "Preference": 0.0,
       "Delay": 300.0,
       "Chance": 100.0
     },
@@ -1677,7 +1677,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Horizontal": 0.0,
+      "Horizontal": 5.0,
       "Vertical": 100.0,
       "Chance": 100.0,
       "Cancel air": false,
@@ -1976,17 +1976,17 @@
       "keybind": 48,
       "Mode": 1.0,
       "Not while moving": true,
-      "Min start delay": 200.0,
-      "Max start delay": 200.0,
+      "Min start delay": 250.0,
+      "Max start delay": 250.0,
       "Armor": true,
-      "Min armor delay": 150.0,
+      "Min armor delay": 100.0,
       "Max armor delay": 150.0,
       "Clean": true,
-      "Min clean delay": 70.0,
+      "Min clean delay": 50.0,
       "Max clean delay": 70.0,
       "Sort": true,
-      "Min sort delay": 50.0,
-      "Max sort delay": 50.0,
+      "Min sort delay": 80.0,
+      "Max sort delay": 110.0,
       "Sword slot": 1.0,
       "Block slot": 2.0,
       "Ender pearl slot": 3.0,
@@ -2144,15 +2144,15 @@
       "Click mode": 0.0,
       "Autoblock": 4.0,
       "Attack mode": 1.0,
-      "Attack range": 3.3,
-      "Swing range": 4.5,
-      "Block range": 3.3,
-      "PreAim range": 5.5,
+      "Attack range": 3.2,
+      "Swing range": 3.4,
+      "Block range": 3.2,
+      "PreAim range": 5.0,
       "FOV": 360.0,
       "Rotation": 1.0,
       "Rotation speed": 10.0,
       "Move fix": 0.0,
-      "Ray cast": 2.0,
+      "Ray cast": 1.0,
       "Nearest": false,
       "Nearest accuracy": 0.86,
       "Lazy": false,
@@ -2160,13 +2160,13 @@
       "Constant": false,
       "Constant only if not moving": false,
       "Noise": false,
-      "Noise horizontal": 0.35,
-      "Noise vertical": 0.49,
+      "Noise horizontal": 0.3,
+      "Noise vertical": 0.3,
       "Noise aim speed": 0.15,
       "Noise delay": 100.0,
       "Delay aim": false,
-      "Delay aim amount": 15.0,
-      "Sort mode": 0.0,
+      "Delay aim amount": 5.0,
+      "Sort mode": 2.0,
       "Targets": 1.0,
       "Switch delay": 600.0,
       "Target invisible": true,
@@ -2235,13 +2235,13 @@
       "name": "LagRange",
       "prettyName": "LagRange",
       "prettyInfo": "150ms",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Lag time": 90.0,
-      "Min range": 3.1,
-      "Max range": 3.4,
-      "Delay": 300.0,
+      "Lag time": 80.0,
+      "Min range": 1.5,
+      "Max range": 3.2,
+      "Delay": 200.0,
       "Fov": 360.0,
       "Ignore teammates": false,
       "Only onGround": false
@@ -2312,7 +2312,7 @@
       "hidden": false,
       "keybind": 0,
       "Rotation": false,
-      "CPU SpeedUp Exploit": true
+      "CPU SpeedUp Exploit": false
     },
     {
       "name": "NoFall$Legit",
@@ -2729,17 +2729,17 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Click aim": true,
-      "Aim while on target": true,
+      "Click aim": false,
+      "Aim while on target": false,
       "Strafe increase": true,
       "Check block break": true,
       "Aim vertically": false,
       "Vertical speed": 3.9,
-      "Horizontal speed": 15.3,
-      "Max angle": 330.0,
-      "Distance": 4.3,
-      "Weapon only": false,
-      "Ignore teammates": true,
+      "Horizontal speed": 10.3,
+      "Max angle": 360.0,
+      "Distance": 4.7,
+      "Weapon only": true,
+      "Ignore teammates": false,
       "Through block": true
     },
     {
@@ -2749,8 +2749,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.0,
-      "Max CPS": 12.0,
+      "Min CPS": 1.0,
+      "Max CPS": 1.0,
       "Butterfly": true
     },
     {
@@ -2760,8 +2760,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.0,
-      "Max CPS": 14.0,
+      "Min CPS": 13.5,
+      "Max CPS": 21.0,
       "Butterfly": true
     },
     {
@@ -2773,7 +2773,7 @@
       "keybind": 0,
       "Min CPS": 9.0,
       "Max CPS": 11.0,
-      "Butterfly": false
+      "Butterfly": true
     },
     {
       "name": "RageBot$Normal",
@@ -2848,8 +2848,8 @@
       "hidden": false,
       "keybind": 0,
       "Pulse": true,
-      "Pulse delay": 1000.0,
-      "Show initial position": true,
+      "Pulse delay": 200.0,
+      "Show initial position": false,
       "Overlay": true
     },
     {
@@ -3229,8 +3229,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min": 3.15,
-      "Max": 3.35,
+      "Min": 3.0,
+      "Max": 3.2,
       "Chance": 100.0,
       "Weapon only": true,
       "Moving only": true,
@@ -3356,7 +3356,7 @@
       "hidden": false,
       "keybind": 0,
       "Mode": 0.0,
-      "Only blocks": false,
+      "Only blocks": true,
       "Click sound": 0.0
     },
     {
@@ -3442,7 +3442,7 @@
       "Rotation": 3.0,
       "Aim speed": 20.0,
       "MoveFix": false,
-      "Motion": 0.75,
+      "Motion": 0.7,
       "Strafe": 0.0,
       "Sprint": 3.0,
       "Fast": false,
@@ -3577,10 +3577,10 @@
       "enabled": false,
       "hidden": false,
       "keybind": 44,
-      "Mode": 3.0,
+      "Mode": 0.0,
       "Disable in liquid": true,
       "Disable while sneaking": true,
-      "Stop motion": true
+      "Stop motion": false
     },
     {
       "name": "AntiAim$Spin",
@@ -3641,7 +3641,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Auto jump": false,
+      "Auto jump": true,
       "Ground strafe": true
     },
     {
