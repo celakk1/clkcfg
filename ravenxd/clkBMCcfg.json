@@ -1068,7 +1068,7 @@
       "enabled": true,
       "hidden": true,
       "keybind": 0,
-      "1.7 hitReg": true,
+      "1.7 hitReg": false,
       "Remove jump ticks": true,
       "Not while scaffold": false
     },
@@ -1459,7 +1459,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Amount": 2.0,
+      "Amount": 1.0,
       "Auto jump": true
     },
     {
@@ -1520,44 +1520,14 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "render",
-          "x": 527,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 54,
+          "name": "fun",
+          "x": 1153,
+          "y": 51,
           "opened": true
         },
         {
           "name": "combat",
           "x": 832,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 53,
-          "opened": true
-        },
-        {
-          "name": "world",
-          "x": 426,
           "y": 54,
           "opened": true
         },
@@ -1568,8 +1538,14 @@
           "opened": true
         },
         {
-          "name": "client",
-          "x": 125,
+          "name": "minigames",
+          "x": 946,
+          "y": 53,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
           "y": 54,
           "opened": true
         },
@@ -1577,12 +1553,6 @@
           "name": "experimental",
           "x": 1049,
           "y": 54,
-          "opened": true
-        },
-        {
-          "name": "fun",
-          "x": 1153,
-          "y": 51,
           "opened": true
         },
         {
@@ -1595,6 +1565,36 @@
           "name": "scripts",
           "x": 24,
           "y": 265,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 54,
           "opened": true
         }
       ],
