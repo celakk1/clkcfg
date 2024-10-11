@@ -1520,9 +1520,39 @@
       "keybind": 54,
       "catPos": [
         {
+          "name": "render",
+          "x": 527,
+          "y": 54,
+          "opened": true
+        },
+        {
           "name": "fun",
           "x": 1153,
           "y": 51,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 265,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 54,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 53,
           "opened": true
         },
         {
@@ -1538,14 +1568,8 @@
           "opened": true
         },
         {
-          "name": "minigames",
-          "x": 946,
-          "y": 53,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
+          "name": "client",
+          "x": 125,
           "y": 54,
           "opened": true
         },
@@ -1556,26 +1580,8 @@
           "opened": true
         },
         {
-          "name": "profiles",
-          "x": 23,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 265,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
+          "name": "movement",
+          "x": 728,
           "y": 54,
           "opened": true
         },
@@ -1586,14 +1592,8 @@
           "opened": true
         },
         {
-          "name": "world",
-          "x": 426,
-          "y": 54,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
+          "name": "profiles",
+          "x": 23,
           "y": 54,
           "opened": true
         }
@@ -2144,15 +2144,15 @@
       "Click mode": 0.0,
       "Autoblock": 5.0,
       "Attack mode": 1.0,
-      "Attack range": 3.5,
+      "Attack range": 3.4,
       "Swing range": 4.5,
-      "Block range": 3.5,
+      "Block range": 3.4,
       "PreAim range": 6.0,
       "FOV": 360.0,
       "Rotation": 1.0,
-      "Rotation speed": 10.0,
+      "Rotation speed": 9.9,
       "Move fix": 0.0,
-      "Ray cast": 2.0,
+      "Ray cast": 1.0,
       "Nearest": false,
       "Nearest accuracy": 0.87,
       "Lazy": false,
@@ -2604,7 +2604,7 @@
       "name": "Name Hider",
       "prettyName": "Name Hider",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Hide all names": false
@@ -2771,8 +2771,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 9.4,
-      "Max CPS": 10.8,
+      "Min CPS": 10.0,
+      "Max CPS": 10.0,
       "Butterfly": false
     },
     {
@@ -2792,7 +2792,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Horizontal": 5.0,
+      "Horizontal": 10.0,
       "Vertical": 100.0,
       "Chance": 100.0,
       "Only first hit": false,
@@ -3230,7 +3230,7 @@
       "hidden": true,
       "keybind": 0,
       "Min": 3.0,
-      "Max": 3.45,
+      "Max": 3.4,
       "Chance": 100.0,
       "Weapon only": true,
       "Moving only": true,
