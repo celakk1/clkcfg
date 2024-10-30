@@ -1,6 +1,6 @@
 {
-  "clientName": "blocksmc",
-  "killmessage": "skibidi",
+  "clientName": "BMC by clk",
+  "killmessage": "BMC by clk",
   "keybind": 0,
   "modules": [
     {
@@ -735,7 +735,7 @@
       "InputSneakLegit": false,
       "InputSneak": false,
       "Bug": false,
-      "Timer": 0.2,
+      "Timer": 1.05,
       "Blink": false
     },
     {
@@ -3149,8 +3149,8 @@
     },
     {
       "name": "Panic",
-      "prettyName": "Panic",
-      "prettyInfo": "",
+      "prettyName": "bmcbyclk",
+      "prettyInfo": "bmcbyclk",
       "enabled": false,
       "hidden": false,
       "keybind": 0
@@ -3241,7 +3241,7 @@
     {
       "name": "Speed$Hypixel$LowHop$Predict",
       "prettyName": "Predict",
-      "prettyInfo": "Predict",
+      "prettyInfo": "bmcbyclk",
       "enabled": false,
       "hidden": false,
       "keybind": 0,
@@ -3389,7 +3389,7 @@
     {
       "name": "KillAura$Record",
       "prettyName": "Record",
-      "prettyInfo": "Record",
+      "prettyInfo": "bmcbyclk",
       "enabled": false,
       "hidden": false,
       "keybind": 0
@@ -3519,7 +3519,7 @@
     {
       "name": "MoreKB$STap",
       "prettyName": "STap",
-      "prettyInfo": "STap",
+      "prettyInfo": "BMCcfgmadebyclk",
       "enabled": false,
       "hidden": false,
       "keybind": 0,
@@ -3548,8 +3548,8 @@
     },
     {
       "name": "SaveMoveKeys",
-      "prettyName": "SaveMoveKeys",
-      "prettyInfo": "",
+      "prettyName": "BMCcfgmadebyclk",
+      "prettyInfo": "BMCcfgmadebyclk",
       "enabled": true,
       "hidden": true,
       "keybind": 0,
@@ -3619,8 +3619,8 @@
     },
     {
       "name": "Settings",
-      "prettyName": "Settings",
-      "prettyInfo": "",
+      "prettyName": "BMCcfgmadebyclk",
+      "prettyInfo": "BMCcfgmadebyclk",
       "Set sword as weapon": true,
       "Set axe as weapon": false,
       "Set rod as weapon": false,
