@@ -158,7 +158,7 @@
       "Tab list": true,
       "MatrixTest": false,
       "Debug": false,
-      "Pit spawn": false,
+      "Pit spawn": true,
       "Cancel bot hit": true,
       "Whitelist golems": false,
       "Whitelist silverfishes": false,
