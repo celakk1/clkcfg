@@ -1611,20 +1611,20 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "minigames",
-          "x": 946,
-          "y": 11,
+          "name": "fun",
+          "x": 1153,
+          "y": 9,
           "opened": true
         },
         {
-          "name": "world",
-          "x": 426,
+          "name": "render",
+          "x": 527,
           "y": 12,
           "opened": true
         },
         {
-          "name": "client",
-          "x": 125,
+          "name": "profiles",
+          "x": 23,
           "y": 12,
           "opened": true
         },
@@ -1635,26 +1635,8 @@
           "opened": true
         },
         {
-          "name": "exploit",
-          "x": 227,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 223,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
+          "name": "combat",
+          "x": 832,
           "y": 12,
           "opened": true
         },
@@ -1665,8 +1647,32 @@
           "opened": true
         },
         {
-          "name": "render",
-          "x": 527,
+          "name": "exploit",
+          "x": 227,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 223,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 11,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
           "y": 12,
           "opened": true
         },
@@ -1677,14 +1683,8 @@
           "opened": true
         },
         {
-          "name": "fun",
-          "x": 1153,
-          "y": 9,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
+          "name": "movement",
+          "x": 728,
           "y": 12,
           "opened": true
         }
@@ -1711,7 +1711,7 @@
       "Alphabetical sort": false,
       "Drop shadow": false,
       "Background": true,
-      "Sidebar": true,
+      "Sidebar": false,
       "Lowercase": true,
       "Show module info": true,
       "Combat": true,
