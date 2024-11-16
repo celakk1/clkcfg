@@ -579,8 +579,8 @@
       "Break mode": 2.0,
       "Break speed": 1.0,
       "FOV": 360.0,
-      "Range": 3.5,
-      "Rate": 0.25,
+      "Range": 3.0,
+      "Rate": 0.3,
       "Lobby check": false,
       "Allow aura": false,
       "Break near block": false,
@@ -699,7 +699,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 0.98
+      "Speed": 0.95
     },
     {
       "name": "Disabler$BlocksMC",
@@ -1611,81 +1611,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "world",
-          "x": 426,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "fun",
-          "x": 1153,
-          "y": 3,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "movement",
-          "x": 728,
-          "y": 6,
+          "name": "exploit",
+          "x": 227,
+          "y": 12,
           "opened": true
         },
         {
           "name": "player",
           "x": 627,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 6,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 5,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 217,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
-          "y": 6,
+          "y": 12,
           "opened": true
         },
         {
           "name": "experimental",
           "x": 1049,
-          "y": 6,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "profiles",
+          "x": 23,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 223,
+          "opened": true
+        },
+        {
+          "name": "fun",
+          "x": 1153,
+          "y": 9,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 11,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 12,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 12,
           "opened": true
         }
       ],
@@ -2241,14 +2241,14 @@
       "hidden": false,
       "keybind": 16,
       "Click mode": 0.0,
-      "Attack mode": 1.0,
-      "Autoblock": 4.0,
+      "Attack mode": 0.0,
+      "Autoblock": 5.0,
       "Smart block": false,
       "Block only while swinging": false,
       "Block only while hurt": false,
       "Slowdown": 1.0,
       "Attack range": 3.2,
-      "Swing range": 4.0,
+      "Swing range": 3.9,
       "Block range": 3.2,
       "PreAim range": 6.0,
       "FOV": 360.0,
@@ -2290,7 +2290,7 @@
       "Fix NoSlow flag": false,
       "Post delay": 10.0,
       "Hit through blocks": false,
-      "Ignore teammates": false,
+      "Ignore teammates": true,
       "Manual block": false,
       "Require mouse down": false,
       "Silent swing while blocking": false,
@@ -3574,11 +3574,11 @@
       "Click mode": 0.0,
       "Always place if possible": false,
       "Rotation": 3.0,
-      "Aim speed": 13.9,
+      "Aim speed": 13.0,
       "MoveFix": false,
-      "Motion": 0.9,
+      "Motion": 0.97,
       "Strafe": 90.0,
-      "Not while diagonal": false,
+      "Not while diagonal": true,
       "Sprint": 6.0,
       "Precision": 3.0,
       "Cancel sprint": false,
@@ -3605,7 +3605,7 @@
       "Multi-place": false,
       "Safewalk": false,
       "Show block count": true,
-      "Stop at start": false,
+      "Stop at start": true,
       "Silent swing": false,
       "No swing": false,
       "Tower": true,
@@ -3729,7 +3729,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 44,
-      "Mode": 1.0,
+      "Mode": 3.0,
       "Disable in liquid": true,
       "Disable while sneaking": true,
       "Stop motion": true
