@@ -216,21 +216,21 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Latency compensation": 333.0,
-      "Movement threshold": 1.0,
-      "Disable in lobby": true,
+      "Latency compensation": 0.0,
+      "Movement threshold": 0.0,
+      "Disable in lobby": false,
       "Check for self": true,
       "Check for teammates": false,
-      "VL clear time": 6000.0,
-      "Remove alert buffer": false,
+      "VL clear time": -1.0,
+      "Remove alert buffer": true,
       "Should ping": true,
       "Ping sound": 0.0,
-      "Auto report": 2.0,
+      "Auto report": 0.0,
       "Experimental mode": true,
       "Combat checks": true,
-      "Movement checks": false,
+      "Movement checks": true,
       "Scaffolding checks": true,
-      "Simulation checks": false
+      "Simulation checks": true
     },
     {
       "name": "ArrayList",
@@ -484,12 +484,12 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min latency": 80.0,
-      "Max latency": 100.0,
-      "Min distance": 2.4,
-      "Max distance": 3.3,
-      "Stop on target HurtTime": -1.0,
-      "Stop on self HurtTime": -1.0,
+      "Min latency": 1000.0,
+      "Max latency": 1000.0,
+      "Min distance": 0.0,
+      "Max distance": 10.0,
+      "Stop on target HurtTime": 2.0,
+      "Stop on self HurtTime": 2.0,
       "Draw real position": false
     },
     {
@@ -576,18 +576,18 @@
       "enabled": false,
       "hidden": false,
       "keybind": 35,
-      "Break mode": 2.0,
-      "Break speed": 0.9,
+      "Break mode": 0.0,
+      "Break speed": 1.0,
       "FOV": 360.0,
       "Range": 3.0,
-      "Rate": 0.35,
+      "Rate": 0.25,
       "Lobby check": false,
-      "Allow aura": false,
+      "Allow aura": true,
       "Break near block": false,
-      "Cancel knockBack": false,
+      "Cancel knockBack": true,
       "Disable break effects": true,
       "Ground spoof": false,
-      "Ignore slow": false,
+      "Ignore slow": true,
       "Only while visible": false,
       "Render block outline": true,
       "Send animations": false,
@@ -699,7 +699,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 0.95
+      "Speed": 1.0
     },
     {
       "name": "Disabler$BlocksMC",
@@ -719,11 +719,11 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Slowdown": false,
+      "Slowdown": true,
       "SlowdownForward": 1.0,
       "SlowdownStrafe": 1.0,
-      "Switch": false,
-      "Slot": false,
+      "Switch": true,
+      "Slot": true,
       "OnGround": false,
       "Toggle": false,
       "Input": false,
@@ -1036,15 +1036,15 @@
       "keybind": 0,
       "Only while move": true,
       "Start slow": false,
-      "Switch mode": 1.0,
-      "Slot mode": 1.0,
+      "Switch mode": 2.0,
+      "Slot mode": 2.0,
       "Sprint mode": 0.0,
       "Sword": 0.0,
-      "Slowdown": false,
+      "Slowdown": true,
       "SlowdownForward": 1.0,
       "SlowdownStrafe": 1.0,
-      "Switch": false,
-      "Slot": false,
+      "Switch": true,
+      "Slot": true,
       "OnGround": false,
       "Toggle": false,
       "Input": false,
@@ -1070,10 +1070,10 @@
       "hidden": false,
       "keybind": 0,
       "Cancel outgoing packet": true,
-      "C00PacketKeepAlive": true,
+      "C00PacketKeepAlive": false,
       "C01PacketChatMessage": false,
       "C02PacketUseEntity": false,
-      "C03PacketPlayer": false,
+      "C03PacketPlayer": true,
       "C04PacketPlayerPosition": false,
       "C05PacketPlayerLook": false,
       "C06PacketPlayerPosLook": false,
@@ -1104,7 +1104,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Cape": 1.0
+      "Cape": 5.0
     },
     {
       "name": "CustomName",
@@ -1128,10 +1128,10 @@
       "name": "Delay Remover",
       "prettyName": "Delay Remover",
       "prettyInfo": "",
-      "enabled": false,
+      "enabled": true,
       "hidden": true,
       "keybind": 0,
-      "1.7 hitReg": false,
+      "1.7 hitReg": true,
       "Remove jump ticks": true,
       "Not while scaffold": false
     },
@@ -1182,7 +1182,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 5.0
+      "Mode": 0.0
     },
     {
       "name": "DiscordRPC",
@@ -1611,81 +1611,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "client",
-          "x": 125,
-          "y": 30,
+          "name": "combat",
+          "x": 832,
+          "y": 42,
           "opened": true
         },
         {
           "name": "fun",
           "x": 1153,
-          "y": 27,
-          "opened": true
-        },
-        {
-          "name": "world",
-          "x": 426,
-          "y": 30,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 30,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 30,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
-          "y": 30,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 30,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 241,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 29,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 30,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 30,
+          "y": 39,
           "opened": true
         },
         {
           "name": "movement",
           "x": 728,
-          "y": 30,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 253,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 41,
+          "opened": true
+        },
+        {
+          "name": "profiles",
+          "x": 23,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "world",
+          "x": 426,
+          "y": 42,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 42,
           "opened": true
         },
         {
           "name": "experimental",
           "x": 1049,
-          "y": 30,
+          "y": 42,
           "opened": true
         }
       ],
@@ -1711,7 +1711,7 @@
       "Alphabetical sort": false,
       "Drop shadow": false,
       "Background": true,
-      "Sidebar": false,
+      "Sidebar": true,
       "Lowercase": true,
       "Show module info": true,
       "Combat": true,
@@ -1769,9 +1769,9 @@
       "hidden": false,
       "keybind": 0,
       "Horizontal": 0.0,
-      "Vertical": 100.0,
+      "Vertical": 0.0,
       "Chance": 100.0,
-      "Cancel air": true,
+      "Cancel air": false,
       "Damage boost": false,
       "Damage boost only on ground": false,
       "Only first hit": false,
@@ -1796,7 +1796,7 @@
       "Mode": 0.0,
       "Stop on hurt": false,
       "Fast test": false,
-      "Strafe": true,
+      "Strafe": false,
       "Min angle": 60.0,
       "Full strafe": false
     },
@@ -1807,8 +1807,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Boost": 0.0,
-      "Delay": 250.0
+      "Boost": 0.4,
+      "Delay": 0.0
     },
     {
       "name": "Timer$Hypixel",
@@ -1862,8 +1862,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Not while moving": true,
-      "Stop on blocks": 6.0
+      "Not while moving": false,
+      "Stop on blocks": 10.0
     },
     {
       "name": "Disabler$Hypixel",
@@ -1961,12 +1961,12 @@
       "name": "NoFall$HypixelPacket",
       "prettyName": "HypixelPacket",
       "prettyInfo": "HypixelPacket",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
       "Calcate mode": 1.0,
       "Prediction": false,
-      "Minimum fall distance": 5.1,
+      "Minimum fall distance": 3.0,
       "Packet mode": 0.0,
       "Not while killAura": true
     },
@@ -2115,7 +2115,7 @@
       "Click gui": true,
       "No open packet": true,
       "Allow sprint": true,
-      "Allow sneak": true,
+      "Allow sneak": false,
       "Chest name check": false,
       "Target nearby check": false
     },
@@ -2241,19 +2241,19 @@
       "hidden": false,
       "keybind": 16,
       "Click mode": 0.0,
-      "Attack mode": 0.0,
+      "Attack mode": 1.0,
       "Autoblock": 4.0,
       "Smart block": false,
       "Block only while swinging": false,
       "Block only while hurt": false,
       "Slowdown": 1.0,
-      "Attack range": 3.2,
-      "Swing range": 3.9,
-      "Block range": 3.2,
+      "Attack range": 3.1,
+      "Swing range": 3.5,
+      "Block range": 3.1,
       "PreAim range": 6.0,
       "FOV": 360.0,
       "Rotation": 1.0,
-      "Rotation speed": 10.0,
+      "Rotation speed": 9.9,
       "Move fix": 0.0,
       "Ray cast": 2.0,
       "Nearest": false,
@@ -2289,12 +2289,12 @@
       "Fix slot reset": false,
       "Fix NoSlow flag": false,
       "Post delay": 10.0,
-      "Hit through blocks": false,
+      "Hit through blocks": true,
       "Ignore teammates": true,
       "Manual block": false,
       "Require mouse down": false,
       "Silent swing while blocking": false,
-      "Weapon only": false,
+      "Weapon only": true,
       "Dot": true,
       "Dot size": 0.15
     },
@@ -2521,7 +2521,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 0.0
+      "Mode": 1.0
     },
     {
       "name": "Speed$Hypixel$LowHop",
@@ -2780,11 +2780,11 @@
       "name": "NoFall",
       "prettyName": "NoFall",
       "prettyInfo": "HypixelPacket",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Mode": 0.0,
-      "Ignore void": false
+      "Mode": 1.0,
+      "Ignore void": true
     },
     {
       "name": "Criticals$NoGround",
@@ -2899,7 +2899,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 9.5,
+      "Min CPS": 10.0,
       "Max CPS": 10.0,
       "Butterfly": false
     },
@@ -3368,11 +3368,11 @@
       "name": "Reach",
       "prettyName": "Reach",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": true,
       "keybind": 0,
-      "Min": 3.05,
-      "Max": 3.2,
+      "Min": 2.85,
+      "Max": 3.15,
       "Chance": 100.0,
       "Weapon only": false,
       "Moving only": false,
@@ -3470,11 +3470,11 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Slowdown": false,
+      "Slowdown": true,
       "SlowdownForward": 1.0,
       "SlowdownStrafe": 1.0,
-      "Switch": false,
-      "Slot": false,
+      "Switch": true,
+      "Slot": true,
       "OnGround": false,
       "Toggle": false,
       "Input": false,
@@ -3576,7 +3576,7 @@
       "Rotation": 3.0,
       "Aim speed": 13.0,
       "MoveFix": false,
-      "Motion": 0.98,
+      "Motion": 0.85,
       "Strafe": 90.0,
       "Not while diagonal": true,
       "Sprint": 6.0,
@@ -3729,7 +3729,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 44,
-      "Mode": 3.0,
+      "Mode": 1.0,
       "Disable in liquid": true,
       "Disable while sneaking": true,
       "Stop motion": false
@@ -3775,7 +3775,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 1.0
+      "Mode": 0.0
     },
     {
       "name": "Stop Motion",
@@ -3844,11 +3844,11 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Slowdown": false,
-      "SlowdownForward": 0.75,
-      "SlowdownStrafe": 0.75,
-      "Switch": false,
-      "Slot": false,
+      "Slowdown": true,
+      "SlowdownForward": 1.0,
+      "SlowdownStrafe": 1.0,
+      "Switch": true,
+      "Slot": true,
       "OnGround": false,
       "Toggle": false,
       "Input": false,
@@ -4058,10 +4058,10 @@
       "prettyName": "Tower",
       "prettyInfo": "",
       "Mode": 3.0,
-      "Disable while collided": false,
-      "Disable while hurt": false,
-      "Sprint jump forward": false,
-      "Stop motion": false
+      "Disable while collided": true,
+      "Disable while hurt": true,
+      "Sprint jump forward": true,
+      "Stop motion": true
     },
     {
       "name": "Tracers",
@@ -4131,9 +4131,9 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Horizon speed": 5.0,
-      "Auto jump": false,
-      "Vertical speed": 0.9,
+      "Horizon speed": 1.0,
+      "Auto jump": true,
+      "Vertical speed": 1.0,
       "Fast stop": true
     },
     {
@@ -4152,9 +4152,9 @@
       "hidden": false,
       "keybind": 0,
       "Speed": 0.5,
-      "Diagonal speed": 5.0,
+      "Diagonal speed": 0.0,
       "Slowed speed": 2.0,
-      "Slowed ticks": 1.0
+      "Slowed ticks": 20.0
     },
     {
       "name": "Fly$Vanilla1",
