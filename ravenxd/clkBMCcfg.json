@@ -1128,7 +1128,7 @@
       "name": "Delay Remover",
       "prettyName": "Delay Remover",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": true,
       "keybind": 0,
       "1.7 hitReg": true,
