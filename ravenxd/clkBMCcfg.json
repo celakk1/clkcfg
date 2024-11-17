@@ -577,10 +577,10 @@
       "hidden": false,
       "keybind": 35,
       "Break mode": 2.0,
-      "Break speed": 1.0,
+      "Break speed": 0.9,
       "FOV": 360.0,
       "Range": 3.0,
-      "Rate": 0.3,
+      "Rate": 0.35,
       "Lobby check": false,
       "Allow aura": false,
       "Break near block": false,
@@ -1611,81 +1611,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "exploit",
-          "x": 227,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "experimental",
-          "x": 1049,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 223,
+          "name": "client",
+          "x": 125,
+          "y": 30,
           "opened": true
         },
         {
           "name": "fun",
           "x": 1153,
-          "y": 9,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "combat",
-          "x": 832,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 12,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 11,
+          "y": 27,
           "opened": true
         },
         {
           "name": "world",
           "x": 426,
-          "y": 12,
+          "y": 30,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 30,
+          "opened": true
+        },
+        {
+          "name": "render",
+          "x": 527,
+          "y": 30,
+          "opened": true
+        },
+        {
+          "name": "profiles",
+          "x": 23,
+          "y": 30,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 30,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 241,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 29,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 30,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 30,
           "opened": true
         },
         {
           "name": "movement",
           "x": 728,
-          "y": 12,
+          "y": 30,
           "opened": true
         },
         {
-          "name": "client",
-          "x": 125,
-          "y": 12,
+          "name": "experimental",
+          "x": 1049,
+          "y": 30,
           "opened": true
         }
       ],
@@ -2242,7 +2242,7 @@
       "keybind": 16,
       "Click mode": 0.0,
       "Attack mode": 0.0,
-      "Autoblock": 5.0,
+      "Autoblock": 4.0,
       "Smart block": false,
       "Block only while swinging": false,
       "Block only while hurt": false,
@@ -2255,7 +2255,7 @@
       "Rotation": 1.0,
       "Rotation speed": 10.0,
       "Move fix": 0.0,
-      "Ray cast": 1.0,
+      "Ray cast": 2.0,
       "Nearest": false,
       "Nearest accuracy": 0.87,
       "Lazy": false,
@@ -2275,8 +2275,8 @@
       "Scale chance": 80.0,
       "Offset": true,
       "Offset horizontal": 0.0,
-      "Offset vertical": -0.4,
-      "Offset timing": 1.0,
+      "Offset vertical": -0.2,
+      "Offset timing": 0.0,
       "Sort mode": 0.0,
       "Targets": 1.0,
       "Switch delay": 600.0,
@@ -2296,7 +2296,7 @@
       "Silent swing while blocking": false,
       "Weapon only": false,
       "Dot": true,
-      "Dot size": 0.2
+      "Dot size": 0.15
     },
     {
       "name": "KillMessage",
@@ -2899,8 +2899,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.0,
-      "Max CPS": 11.0,
+      "Min CPS": 9.5,
+      "Max CPS": 10.0,
       "Butterfly": false
     },
     {
@@ -3562,7 +3562,7 @@
       "enabled": true,
       "hidden": true,
       "keybind": 0,
-      "Delay": 50.0
+      "Delay": 0.0
     },
     {
       "name": "Scaffold",
@@ -3576,7 +3576,7 @@
       "Rotation": 3.0,
       "Aim speed": 13.0,
       "MoveFix": false,
-      "Motion": 0.97,
+      "Motion": 0.98,
       "Strafe": 90.0,
       "Not while diagonal": true,
       "Sprint": 6.0,
@@ -3591,8 +3591,8 @@
       "Jump": false,
       "Jump every blocks": 8.0,
       "Rotate with movement": true,
-      "Static yaw": false,
-      "Reserve yaw": false,
+      "Static yaw": true,
+      "Reserve yaw": true,
       "Static pitch": false,
       "Static pitch on jump": true,
       "Straight pitch": 70.2,
@@ -3732,7 +3732,7 @@
       "Mode": 3.0,
       "Disable in liquid": true,
       "Disable while sneaking": true,
-      "Stop motion": true
+      "Stop motion": false
     },
     {
       "name": "AntiAim$Spin",
