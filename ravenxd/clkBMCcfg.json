@@ -699,7 +699,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 0.95
+      "Speed": 0.9
     },
     {
       "name": "Disabler$BlocksMC",
@@ -850,7 +850,7 @@
       "name": "ChestStealer",
       "prettyName": "ChestStealer",
       "prettyInfo": "",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 48,
       "Min start delay": 90.0,
@@ -2077,7 +2077,7 @@
       "name": "InvManager",
       "prettyName": "InvManager",
       "prettyInfo": "OpenInv",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 48,
       "Mode": 1.0,
@@ -4060,7 +4060,7 @@
       "Mode": 3.0,
       "Disable while collided": true,
       "Disable while hurt": true,
-      "Sprint jump forward": true,
+      "Sprint jump forward": false,
       "Stop motion": false
     },
     {
