@@ -150,7 +150,7 @@
       "name": "AntiBot",
       "prettyName": "AntiBot",
       "prettyInfo": "",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Entity spawn delay": false,
@@ -699,7 +699,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Speed": 1.0
+      "Speed": 0.95
     },
     {
       "name": "Disabler$BlocksMC",
@@ -1182,7 +1182,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Mode": 0.0
+      "Mode": 5.0
     },
     {
       "name": "DiscordRPC",
@@ -1507,8 +1507,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "GrimAC mode": 0.0,
-      "Reduce count every time": 4.0,
+      "GrimAC mode": 1.0,
+      "Reduce count every time": 10.0,
       "Reduce times": 5.0,
       "Only while moving": true,
       "Not while eating": false,
@@ -1611,81 +1611,81 @@
       "keybind": 54,
       "catPos": [
         {
-          "name": "combat",
-          "x": 832,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "render",
-          "x": 527,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "exploit",
-          "x": 227,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "client",
-          "x": 125,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "scripts",
-          "x": 24,
-          "y": 253,
-          "opened": true
-        },
-        {
           "name": "experimental",
           "x": 1049,
-          "y": 42,
+          "y": 6,
           "opened": true
         },
         {
           "name": "world",
           "x": 426,
-          "y": 42,
+          "y": 6,
           "opened": true
         },
         {
-          "name": "movement",
-          "x": 728,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "profiles",
-          "x": 23,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "other",
-          "x": 326,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "player",
-          "x": 627,
-          "y": 42,
-          "opened": true
-        },
-        {
-          "name": "minigames",
-          "x": 946,
-          "y": 41,
+          "name": "render",
+          "x": 527,
+          "y": 6,
           "opened": true
         },
         {
           "name": "fun",
           "x": 1153,
-          "y": 39,
+          "y": 3,
+          "opened": true
+        },
+        {
+          "name": "profiles",
+          "x": 23,
+          "y": 6,
+          "opened": true
+        },
+        {
+          "name": "combat",
+          "x": 832,
+          "y": 6,
+          "opened": true
+        },
+        {
+          "name": "client",
+          "x": 125,
+          "y": 6,
+          "opened": true
+        },
+        {
+          "name": "minigames",
+          "x": 946,
+          "y": 5,
+          "opened": true
+        },
+        {
+          "name": "scripts",
+          "x": 24,
+          "y": 217,
+          "opened": true
+        },
+        {
+          "name": "exploit",
+          "x": 227,
+          "y": 6,
+          "opened": true
+        },
+        {
+          "name": "movement",
+          "x": 728,
+          "y": 6,
+          "opened": true
+        },
+        {
+          "name": "other",
+          "x": 326,
+          "y": 6,
+          "opened": true
+        },
+        {
+          "name": "player",
+          "x": 627,
+          "y": 6,
           "opened": true
         }
       ],
@@ -1769,7 +1769,7 @@
       "hidden": false,
       "keybind": 0,
       "Horizontal": 0.0,
-      "Vertical": 0.0,
+      "Vertical": 100.0,
       "Chance": 100.0,
       "Cancel air": false,
       "Damage boost": false,
@@ -2030,9 +2030,9 @@
       "XZ on sprint hit": 0.0,
       "Reduce unnecessary slowdown": false,
       "Chance": 100.0,
-      "Jump": false,
-      "Jump in inv": false,
-      "Jump chance": 80.0,
+      "Jump": true,
+      "Jump in inv": true,
+      "Jump chance": 100.0,
       "Not while speed": false,
       "Not while jump boost": false,
       "Debug": false
@@ -2210,8 +2210,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Start hurt time": 10.0,
-      "Stop hurt time": 0.0
+      "Start hurt time": 3.0,
+      "Stop hurt time": 3.0
     },
     {
       "name": "Jesus$Karhu",
@@ -2247,37 +2247,37 @@
       "Block only while swinging": false,
       "Block only while hurt": false,
       "Slowdown": 1.0,
-      "Attack range": 3.1,
-      "Swing range": 3.5,
-      "Block range": 3.1,
+      "Attack range": 3.2,
+      "Swing range": 3.6,
+      "Block range": 3.2,
       "PreAim range": 6.0,
       "FOV": 360.0,
       "Rotation": 1.0,
       "Rotation speed": 9.9,
       "Move fix": 0.0,
-      "Ray cast": 2.0,
-      "Nearest": false,
-      "Nearest accuracy": 0.87,
+      "Ray cast": 1.0,
+      "Nearest": true,
+      "Nearest accuracy": 1.0,
       "Lazy": false,
-      "Lazy accuracy": 0.76,
+      "Lazy accuracy": 1.0,
       "Constant": false,
       "Constant only if not moving": false,
       "Noise": false,
       "Noise horizontal": 0.15,
       "Noise vertical": 0.15,
-      "Noise aim speed": 0.2,
-      "Noise delay": 110.0,
+      "Noise aim speed": 0.25,
+      "Noise delay": 50.0,
       "Delay aim": false,
-      "Delay aim amount": 5.0,
+      "Delay aim amount": 100.0,
       "Scale": false,
-      "Scale horizontal": 1.0,
-      "Scale vertical": 0.8,
-      "Scale chance": 80.0,
+      "Scale horizontal": 0.5,
+      "Scale vertical": 0.5,
+      "Scale chance": 100.0,
       "Offset": true,
       "Offset horizontal": 0.0,
-      "Offset vertical": -0.2,
+      "Offset vertical": -0.05,
       "Offset timing": 0.0,
-      "Sort mode": 0.0,
+      "Sort mode": 2.0,
       "Targets": 1.0,
       "Switch delay": 600.0,
       "Target invisible": true,
@@ -2520,7 +2520,7 @@
       "prettyInfo": "Hypixel",
       "enabled": false,
       "hidden": false,
-      "keybind": 45,
+      "keybind": 0,
       "Mode": 1.0
     },
     {
@@ -2899,8 +2899,8 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Min CPS": 10.0,
-      "Max CPS": 10.0,
+      "Min CPS": 8.0,
+      "Max CPS": 10.5,
       "Butterfly": false
     },
     {
@@ -3371,13 +3371,13 @@
       "enabled": false,
       "hidden": true,
       "keybind": 0,
-      "Min": 2.85,
-      "Max": 3.15,
+      "Min": 0.0,
+      "Max": 3.0,
       "Chance": 100.0,
       "Weapon only": false,
       "Moving only": false,
       "Sprint only": false,
-      "Hit through blocks": false
+      "Hit through blocks": true
     },
     {
       "name": "AutoClicker$Record",
@@ -3574,14 +3574,14 @@
       "Click mode": 0.0,
       "Always place if possible": false,
       "Rotation": 3.0,
-      "Aim speed": 13.0,
+      "Aim speed": 20.0,
       "MoveFix": false,
-      "Motion": 0.85,
-      "Strafe": 90.0,
+      "Motion": 0.95,
+      "Strafe": 80.0,
       "Not while diagonal": true,
       "Sprint": 6.0,
       "Precision": 3.0,
-      "Cancel sprint": false,
+      "Cancel sprint": true,
       "Legit": false,
       "Hover": false,
       "Recycle rotation": false,
@@ -3592,7 +3592,7 @@
       "Jump every blocks": 8.0,
       "Rotate with movement": true,
       "Static yaw": true,
-      "Reserve yaw": true,
+      "Reserve yaw": false,
       "Static pitch": false,
       "Static pitch on jump": true,
       "Straight pitch": 70.2,
@@ -3655,7 +3655,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Reduce count every time": 4.0,
+      "Reduce count every time": 10.0,
       "Reduce times": 5.0,
       "Only while moving": true,
       "Not while eating": false,
@@ -3732,7 +3732,7 @@
       "Mode": 1.0,
       "Disable in liquid": true,
       "Disable while sneaking": true,
-      "Stop motion": false
+      "Stop motion": true
     },
     {
       "name": "AntiAim$Spin",
@@ -3992,7 +3992,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Horizontal": 0.0,
+      "Horizontal": -5.0,
       "Vertical": 100.0,
       "Chance": 100.0,
       "Delay": 10.0,
@@ -4061,7 +4061,7 @@
       "Disable while collided": true,
       "Disable while hurt": true,
       "Sprint jump forward": true,
-      "Stop motion": true
+      "Stop motion": false
     },
     {
       "name": "Tracers",
@@ -4402,6 +4402,22 @@
       "name": "Language$????",
       "prettyName": "????",
       "prettyInfo": "????",
+      "enabled": false,
+      "hidden": false,
+      "keybind": 0
+    },
+    {
+      "name": "sc-EntityCancel",
+      "prettyName": "EntityCancel",
+      "prettyInfo": "",
+      "enabled": false,
+      "hidden": false,
+      "keybind": 0
+    },
+    {
+      "name": "sc-gayscafffix",
+      "prettyName": "gayscafffix",
+      "prettyInfo": "",
       "enabled": false,
       "hidden": false,
       "keybind": 0
