@@ -1,120 +1,35 @@
--- Credits To The Original Devs @xz, @goof
-getgenv().Config = {
-	Invite = "clkmenu.gg",
-	Version = "0.1",
-}
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-getgenv().luaguardvars = {
-	DiscordName = "watermelonmuncher",
-}
+local Window = Rayfield:CreateWindow({
+   Name = "Rayfield Example Window",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by Sirius",
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/celakk1/clkcfg/refs/heads/main/script/informantwtflib.lua"))()
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
-library:init() -- Initalizes Library Do Not Delete This
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
 
-local Window = library.NewWindow({
-	title = "clkmenu.gg",
-	size = UDim2.new(0, 525, 0, 650)
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
 })
-
-local tabs = {
-    Tab1 = Window:AddTab("Tab1"),
-	Settings = library:CreateSettingsTab(Window),
-}
-
--- 1 = Set Section Box To The Left
--- 2 = Set Section Box To The Right
-
-local sections = {
-	Section1 = tabs.Tab1:AddSection("Section1", 1),
-	Section2 = tabs.Tab1:AddSection("Section2", 2),
-}
-
-sections.Section1:AddToggle({
-	enabled = true,
-	text = "Toggle1",
-	flag = "Toggle_1",
-	tooltip = "Tooltip1",
-	risky = true, -- turns text to red and sets label to risky
-})
-
-sections.Section1:AddButton({
-	enabled = true,
-	text = "Button1",
-	flag = "Button_1",
-	tooltip = "Tooltip1",
-	risky = false,
-	confirm = false, -- shows confirm button
-})
-
-sections.Section1:AddSeparator({
-	text = "Separator"
-})
-
-sections.Section1:AddSlider({
-	text = "Slider", 
-	flag = 'Slider_1', 
-	suffix = "", 
-	value = 0.000,
-	min = 0.1, 
-	max = 0.999,
-	increment = 0.001,
-	tooltip = "Tooltip1",
-	risky = false,
-})
-
-sections.Section1:AddBind({
-	text = "Keybind",
-	flag = "Key_1",
-	nomouse = true,
-	noindicator = true,
-	tooltip = "Tooltip1",
-	mode = "toggle",
-	bind = Enum.KeyCode.Q,
-	risky = false,
-})
-
-sections.Section1:AddList({
-	enabled = true,
-	text = "List",
-	flag = "List_1",
-	multi = false,
-	tooltip = "Tooltip1",
-    risky = false,
-    dragging = false,
-    focused = false,
-	value = "1",
-	values = {
-		"1",
-		"2",
-		"3"
-	},
-})
-
-sections.Section1:AddBox({
-    enabled = true,
-    focused = true,
-    text = "TextBox1",
-    input = "PlaceHolder1",
-	flag = "Text_1",
-	risky = false,
-})
-
-sections.Section1:AddText({
-    enabled = true,
-    text = "Text1",
-    flag = "Text_1",
-    risky = false,
-})
-
-sections.Section1:AddColor({
-    enabled = true,
-    text = "ColorPicker1",
-    flag = "Color_1",
-    tooltip = "ToolTip1",
-    color = Color3.new(255, 255, 255),
-    trans = 0,
-    open = false,
-})
-
---Window:SetOpen(true) -- Either Close Or Open Window
