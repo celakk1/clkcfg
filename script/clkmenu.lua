@@ -1,103 +1,143 @@
---Credit to xz#1111 for source
-local Ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/celakk1/clkcfg/refs/heads/main/script/Abyss%20Lib%20Source.lua"))()
-local Ui = Library
+-- Credits To The Original Devs @xz, @goof
+getgenv().Config = {
+	Invite = "informant.wtf",
+	Version = "0.0",
+}
 
-local LoadTime = tick()
+getgenv().luaguardvars = {
+	DiscordName = "username#0000",
+}
 
-local Loader = Library.CreateLoader(
-    "clkmenu loading...", 
-    Vector2.new(300, 300)
-)
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Other/main/1"))()
 
-local Window = Library.Window(
-    "Text Here", 
-    Vector2.new(500, 620)
-)
+library:init() -- Initalizes Library Do Not Delete This
 
-Window.SendNotification(
-    "Normal", -- Normal, Warning, Error 
-    "Press RightShift to open menu and close menu!", 
-    10
-)
+local Window = library.NewWindow({
+	title = "Informant.Wtf",
+	size = UDim2.new(0, 525, 0, 650)
+})
 
-Window.Watermark(
-    "clkmenu"
-)
--- Window:Visible = true
+local tabs = {
+    Tab1 = Window:AddTab("Tab1"),
+	Settings = library:CreateSettingsTab(Window),
+}
 
--- // UI Main \\ --
-local Tab1 = Window:Tab("Tab1")
-local Section1 = Tab1:Section(
-    "Section1", 
-    "Left"
-)
+-- 1 = Set Section Box To The Left
+-- 2 = Set Section Box To The Right
 
+local sections = {
+	Section1 = tabs.Tab1:AddSection("Section1", 1),
+	Section2 = tabs.Tab1:AddSection("Section2", 2),
+}
 
-Section1:Toggle({
-    Title = "Toggle1", 
-    Flag = "Toggle_1",
-    Type = "Dangerous",
-    Callback = function(v)
-        print("Value = "..v)
+sections.Section1:AddToggle({
+	enabled = true,
+	text = "Toggle1",
+	flag = "Toggle_1",
+	tooltip = "Tooltip1",
+	risky = true, -- turns text to red and sets label to risky
+	callback = function(lol)
+	    print("Toggle Is Now Set To : ".. lol)
+	end
+})
+
+sections.Section1:AddButton({
+	enabled = true,
+	text = "Button1",
+	flag = "Button_1",
+	tooltip = "Tooltip1",
+	risky = false,
+	confirm = false, -- shows confirm button
+	callback = function(v)
+	    print(v)
+	end
+})
+
+sections.Section1:AddSeparator({
+	text = "Separator"
+})
+
+sections.Section1:AddSlider({
+	text = "Slider", 
+	flag = 'Slider_1', 
+	suffix = "", 
+	value = 0.000,
+	min = 0.1, 
+	max = 0.999,
+	increment = 0.001,
+	tooltip = "Tooltip1",
+	risky = false,
+	callback = function(v) 
+		print("Slider Value Is Now : ".. v)
+	end
+})
+
+sections.Section1:AddBind({
+	text = "Keybind",
+	flag = "Key_1",
+	nomouse = true,
+	noindicator = true,
+	tooltip = "Tooltip1",
+	mode = "toggle",
+	bind = Enum.KeyCode.Q,
+	risky = false,
+	keycallback = function(v)
+	    print("Keybind Changed!")
+	end
+})
+
+sections.Section1:AddList({
+	enabled = true,
+	text = "List",
+	flag = "List_1",
+	multi = false,
+	tooltip = "Tooltip1",
+    risky = false,
+    dragging = false,
+    focused = false,
+	value = "1",
+	values = {
+		"1",
+		"2",
+		"3"
+	},
+	callback = function(v)
+	    print("List Value Is Now : "..v)
+	end
+})
+
+sections.Section1:AddBox({
+    enabled = true,
+    focused = true,
+    text = "TextBox1",
+    input = "PlaceHolder1",
+	flag = "Text_1",
+	risky = false,
+	callback = function(v)
+	    print(v)
+	end
+})
+
+sections.Section1:AddText({
+    enabled = true,
+    text = "Text1",
+    flag = "Text_1",
+    risky = false,
+})
+
+sections.Section1:AddColor({
+    enabled = true,
+    text = "ColorPicker1",
+    flag = "Color_1",
+    tooltip = "ToolTip1",
+    color = Color3.new(255, 255, 255),
+    trans = 0,
+    open = false,
+    callback = function()
+        
     end
-}): -- Toggle Keybind Below
-    Keybind({
-    Title = "KeybindToggle1",
-    Flag = "Keybind_Toggle_1", 
-    Key = Enum.UserInputType.MouseButton2, 
-    StateType = "Toggle"
 })
 
-Section1:Toggle({
-    Title = "Toggle2", 
-    Flag = "Toggle_2"
-    
-}):
-Colorpicker({
-    Color = Library.Theme.Accent[2], 
-    Flag = "Toggle2Color"
-})
+library:SendNotification("Notification", 5, Color3.new(255, 0, 0))
 
-
-Section1:Slider({
-    Title = "Slider1", 
-    Flag = "Slider_1", 
-    Symbol = "", 
-    Default = 0, 
-    Min = 0, 
-    Max = 20, 
-    Decimals = 1,
-    Callback = function(v)
-        print("Value = "..v)
-    end
-})
-Section1:Dropdown({
-    Title = "Dropdown1", 
-    List = {"1", "2" ,"3"}, 
-    Default = "1", 
-    Flag = "DropDown_1",
-    Callback = function(v)
-        print("Value = "..v)
-    end
-})
-
-Section1:Button({
-    Title = "Button1",
-    Callback = function()
-        print("Pressed!")
-    end
-})
-
---Section1:Colorpicker({
-    --Title = "ColorPicker1"
---})
-
---Section1:Label({
-    --Title = "Label1"
---})
-
---Tab1:AddPlayerlist()
-Window:AddSettingsTab()
-Window:SwitchTab(Tab1)
-Window.ToggleAnime(false)
-LoadTime = math.floor((tick() - LoadTime) * 1000)
+--Window:SetOpen(true) -- Either Close Or Open Window
