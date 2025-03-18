@@ -1,5 +1,5 @@
 --Credit to xz#1111 for source
-local Ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Roblox-UI-Libs/main/Abyss%20Lib/Abyss%20Lib%20Source.lua"))()
+local Ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/celakk1/clkcfg/refs/heads/main/script/Abyss%20Lib%20Source.lua"))()
 local Ui = Library
 
 local LoadTime = tick()
