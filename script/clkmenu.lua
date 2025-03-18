@@ -8,7 +8,7 @@ getgenv().luaguardvars = {
 	DiscordName = "username#0000",
 }
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Other/main/1"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/celakk1/clkcfg/refs/heads/main/script/informantwtflib.lua"))()
 
 library:init() -- Initalizes Library Do Not Delete This
 
