@@ -1,11 +1,11 @@
 -- Credits To The Original Devs @xz, @goof
 getgenv().Config = {
-	Invite = "informant.wtf",
-	Version = "0.0",
+	Invite = "clkmenu.gg",
+	Version = "0.1",
 }
 
 getgenv().luaguardvars = {
-	DiscordName = "username#0000",
+	DiscordName = "watermelonmuncher",
 }
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/celakk1/clkcfg/refs/heads/main/script/informantwtflib.lua"))()
@@ -13,7 +13,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/celak
 library:init() -- Initalizes Library Do Not Delete This
 
 local Window = library.NewWindow({
-	title = "Informant.Wtf",
+	title = "clkmenu.gg",
 	size = UDim2.new(0, 525, 0, 650)
 })
 
