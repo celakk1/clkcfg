@@ -37,6 +37,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("main", "rewind")
 local Section = Tab:CreateSection("movement")
+
 local Toggle = Tab:CreateToggle({
 	Name = ApplyUnsupportedName("autosprint", Success),
 	CurrentValue = false,
@@ -70,6 +71,7 @@ local Toggle = Tab:CreateToggle({
 		Network.connect("Sprint", "Fire", Character, true)
 	end,
 })
+
 local Toggle = Tab:CreateToggle({
 	Name = ApplyUnsupportedName("remove fall damage", Success),
 	CurrentValue = false,
