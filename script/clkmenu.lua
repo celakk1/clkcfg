@@ -5,7 +5,7 @@ local Ui = Library
 local LoadTime = tick()
 
 local Loader = Library.CreateLoader(
-    "Title Here", 
+    "clkmenu loading...", 
     Vector2.new(300, 300)
 )
 
@@ -21,7 +21,7 @@ Window.SendNotification(
 )
 
 Window.Watermark(
-    "Text Here"
+    "clkmenu"
 )
 -- Window:Visible = true
 
