@@ -1,5 +1,4 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local Sense = loadstring(game:HttpGet('https://sirius.menu/sense'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "clkmenu",
