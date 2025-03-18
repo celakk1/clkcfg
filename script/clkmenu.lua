@@ -36,9 +36,6 @@ sections.Section1:AddToggle({
 	flag = "Toggle_1",
 	tooltip = "Tooltip1",
 	risky = true, -- turns text to red and sets label to risky
-	callback = function(lol)
-	    print("Toggle Is Now Set To : ".. lol)
-	end
 })
 
 sections.Section1:AddButton({
@@ -48,9 +45,6 @@ sections.Section1:AddButton({
 	tooltip = "Tooltip1",
 	risky = false,
 	confirm = false, -- shows confirm button
-	callback = function(v)
-	    print(v)
-	end
 })
 
 sections.Section1:AddSeparator({
@@ -67,9 +61,6 @@ sections.Section1:AddSlider({
 	increment = 0.001,
 	tooltip = "Tooltip1",
 	risky = false,
-	callback = function(v) 
-		print("Slider Value Is Now : ".. v)
-	end
 })
 
 sections.Section1:AddBind({
@@ -81,9 +72,6 @@ sections.Section1:AddBind({
 	mode = "toggle",
 	bind = Enum.KeyCode.Q,
 	risky = false,
-	keycallback = function(v)
-	    print("Keybind Changed!")
-	end
 })
 
 sections.Section1:AddList({
@@ -101,9 +89,6 @@ sections.Section1:AddList({
 		"2",
 		"3"
 	},
-	callback = function(v)
-	    print("List Value Is Now : "..v)
-	end
 })
 
 sections.Section1:AddBox({
@@ -113,9 +98,6 @@ sections.Section1:AddBox({
     input = "PlaceHolder1",
 	flag = "Text_1",
 	risky = false,
-	callback = function(v)
-	    print(v)
-	end
 })
 
 sections.Section1:AddText({
@@ -133,9 +115,6 @@ sections.Section1:AddColor({
     color = Color3.new(255, 255, 255),
     trans = 0,
     open = false,
-    callback = function()
-        
-    end
 })
 
 --Window:SetOpen(true) -- Either Close Or Open Window
